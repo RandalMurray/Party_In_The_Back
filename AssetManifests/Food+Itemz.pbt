@@ -359,6 +359,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7676157949819562475
+  Name: "Amethyst"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxmi_amethyst"
+  }
+}
+Assets {
   Id: 6535585226202999017
   Name: "Birch Leaves 01"
   PlatformAssetType: 2
@@ -467,6 +476,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3326922520447790843
+  Name: "Additive Soft Edge"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxma_additive_edgefade"
+  }
+}
+Assets {
   Id: 2709844167712746956
   Name: "Cylinder"
   PlatformAssetType: 1
@@ -518,6 +536,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_clear-coat_001"
+  }
+}
+Assets {
+  Id: 471343982265934240
+  Name: "Carpet 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_carpets_001_uv"
   }
 }
 Assets {
