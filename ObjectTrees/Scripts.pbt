@@ -1,7 +1,7 @@
-Name: "Scripts_1"
-RootId: 12650337537976521284
+Name: "Scripts"
+RootId: 17840937617539460454
 Objects {
-  Id: 12738507073949092910
+  Id: 17555030797134219773
   Name: "WeaponAutoReloadClient"
   Transform {
     Location {
@@ -17,7 +17,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12650337537976521284
+  ParentId: 17840937617539460454
   UnregisteredParameters {
   }
   Collidable_v2 {
