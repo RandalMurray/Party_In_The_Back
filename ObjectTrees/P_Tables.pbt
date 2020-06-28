@@ -5,11 +5,11 @@ Objects {
   Name: "Picnic Table"
   Transform {
     Location {
-      X: 3050
-      Y: 950
+      X: 6549.99951
+      Y: -1050.00073
     }
     Rotation {
-      Yaw: -9.15527344e-05
+      Yaw: -90
     }
     Scale {
       X: 2.5
@@ -1305,11 +1305,11 @@ Objects {
   Name: "Picnic Table"
   Transform {
     Location {
-      X: 3850.00049
-      Y: 949.999329
+      X: 6549.99854
+      Y: -1850.00024
     }
     Rotation {
-      Yaw: -9.15527344e-05
+      Yaw: -90
     }
     Scale {
       X: 2.5
@@ -3906,7 +3906,7 @@ Objects {
   Transform {
     Location {
       X: 4150
-      Y: -1415.00049
+      Y: -1200
     }
     Rotation {
       Yaw: 89.9999542
@@ -5224,7 +5224,7 @@ Objects {
   Transform {
     Location {
       X: 4150.00098
-      Y: -614.999634
+      Y: -200
     }
     Rotation {
       Yaw: 89.9999542
@@ -7826,7 +7826,7 @@ Objects {
   Transform {
     Location {
       X: 2900
-      Y: -1415.00049
+      Y: -1200
     }
     Rotation {
       Yaw: 89.9999542
@@ -9126,7 +9126,7 @@ Objects {
   Transform {
     Location {
       X: 2900.00098
-      Y: -614.999634
+      Y: -200
     }
     Rotation {
       Yaw: 89.9999542

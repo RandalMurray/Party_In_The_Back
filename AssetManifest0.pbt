@@ -98,12 +98,30 @@ Assets {
   }
 }
 Assets {
+  Id: 15686464346860202776
+  Name: "Metal Basic 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_basic_001"
+  }
+}
+Assets {
   Id: 14330897391340087518
   Name: "Ember Volume VFX"
   PlatformAssetType: 8
   PrimaryAsset {
     AssetType: "VfxBlueprintAssetRef"
     AssetId: "fxbp_ember_volume_vfx"
+  }
+}
+Assets {
+  Id: 14322994491342097316
+  Name: "Cube - Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_hq_002"
   }
 }
 Assets {
@@ -125,6 +143,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13489197708281304409
+  Name: "Plastic Matte"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "plastic_matte_001"
+  }
+}
+Assets {
   Id: 13091512434361803159
   Name: "Cube - Chamfered Small Polished"
   PlatformAssetType: 1
@@ -140,6 +167,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_flower_daisy_001"
+  }
+}
+Assets {
+  Id: 11538952637992464408
+  Name: "Casual & Fun Music Score Set 01"
+  PlatformAssetType: 10
+  PrimaryAsset {
+    AssetType: "AudioBlueprintAssetRef"
+    AssetId: "abp_CasualMusic_ref"
   }
 }
 Assets {
@@ -179,6 +215,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10683012252041841224
+  Name: "\"Surf Rock Boogie\" Music Construction Kit (Sections) 01"
+  PlatformAssetType: 10
+  PrimaryAsset {
+    AssetType: "AudioBlueprintAssetRef"
+    AssetId: "abp_surf_rock_boogie_sections_kit_ref"
+  }
+}
+Assets {
   Id: 9219168011105057908
   Name: "Grass Short"
   PlatformAssetType: 1
@@ -212,6 +257,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_foliage_gen_flower_wild_lily_patch_001_ref"
+  }
+}
+Assets {
+  Id: 7434254196771275801
+  Name: "Cylinder - Chamfered Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_hq_002"
+  }
+}
+Assets {
+  Id: 7374747957024876359
+  Name: "Carbon Fiber 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_carbon-fiber_001"
   }
 }
 Assets {
@@ -341,6 +404,15 @@ Assets {
   }
 }
 Assets {
+  Id: 1589449360944952949
+  Name: "Metal Basic Steel"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "steel_001"
+  }
+}
+Assets {
   Id: 1269638068648720973
   Name: "Parallelepiped - Thin"
   PlatformAssetType: 1
@@ -356,6 +428,15 @@ Assets {
   PrimaryAsset {
     AssetType: "AudioAssetRef"
     AssetId: "sfx_magic_frost_ice_bolt_attack_01_Cue_ref"
+  }
+}
+Assets {
+  Id: 1122777591375473386
+  Name: "Cylinder - Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_hq_test_001"
   }
 }
 Assets {
@@ -410,5 +491,14 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "plastic_matte_001"
+  }
+}
+Assets {
+  Id: 130928655487899150
+  Name: "Pipe - 45-Degree Long "
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pipe_curve45_004"
   }
 }
