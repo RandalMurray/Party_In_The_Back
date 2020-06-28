@@ -17,7 +17,7 @@ Objects {
   ChildIds: 7367735074338159388
   ChildIds: 16813558807825262224
   ChildIds: 6149098699206870303
-  ChildIds: 14713340454944924967
+  ChildIds: 1543419512585133337
   ChildIds: 8195914929837552326
   ChildIds: 7521708126774166136
   ChildIds: 820259096713479066
@@ -30,10 +30,7 @@ Objects {
   ChildIds: 6859534731775971534
   ChildIds: 13358597360554033072
   ChildIds: 6949046507286030948
-  ChildIds: 3020724333935571340
-  ChildIds: 2914329264973185174
-  ChildIds: 6463954339863669478
-  ChildIds: 15654580739040906105
+  ChildIds: 2278089345132280544
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -46,146 +43,8 @@ Objects {
   }
 }
 Objects {
-  Id: 15654580739040906105
-  Name: "Cylinder - Chamfered Polished"
-  Transform {
-    Location {
-      X: 5655.49707
-      Y: 797.243469
-      Z: 1213.547
-    }
-    Rotation {
-      Yaw: -3.08468628
-    }
-    Scale {
-      X: 2
-      Y: 2
-      Z: 1.25
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 17699128668611927252
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3928292435133106594
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 6463954339863669478
+  Id: 2278089345132280544
   Name: "FakeCake"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "FakeCake"
-  }
-}
-Objects {
-  Id: 2914329264973185174
-  Name: "Balloon"
-  Transform {
-    Location {
-      X: 5250
-      Y: 550
-      Z: 800
-    }
-    Rotation {
-      Pitch: -3.92489624
-      Yaw: -4.1239624
-      Roll: -14.5624695
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1.25
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 17860830441923358832
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.18804647
-        G: 0.14625001
-        B: 0.72
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 967520874834913898
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 16731275135866000709
-    SubobjectId: 14816894099723760439
-    InstanceId: 4036323068985032889
-    TemplateId: 10223199901888083647
-  }
-}
-Objects {
-  Id: 3020724333935571340
-  Name: "Toilet Paper Tree"
   Transform {
     Scale {
       X: 1
@@ -202,31 +61,29 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 2448833387912131229
+      key: 16156161655480229264
       value {
         Overrides {
           Name: "Name"
-          String: "Toilet Paper Tree"
+          String: "FakeCake"
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: 8600
-            Y: -350
+            X: 775
+            Y: -2300
+            Z: -725
           }
         }
         Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.75
-            Y: 0.75
-            Z: 0.75
+          Name: "Rotation"
+          Rotator {
           }
         }
       }
     }
     TemplateAsset {
-      Id: 118757102828632587
+      Id: 8190136471222550554
     }
   }
 }
@@ -258,8 +115,25 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 4300
-            Y: -9300
+            X: 6160.47168
+            Y: -7616.85596
+            Z: 1240.2843
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: -0.233624339
+            Y: -0.233624339
+            Z: -0.233624339
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -7.70227051
+            Yaw: 82.3631592
+            Roll: 175.423843
           }
         }
       }
@@ -352,7 +226,6 @@ Objects {
   ChildIds: 3536362754027448421
   ChildIds: 12453839479402900733
   ChildIds: 6943165719419016865
-  ChildIds: 13950074068514294567
   ChildIds: 8685906089686442253
   ChildIds: 10454787283183420568
   ChildIds: 16647680176006593997
@@ -1470,10 +1343,11 @@ Objects {
   Name: "Treat Stand"
   Transform {
     Location {
-      Y: 800
+      X: -1950
+      Y: 2650
     }
     Rotation {
-      Yaw: -179.999954
+      Yaw: 179.99971
     }
     Scale {
       X: 1
@@ -1504,6 +1378,8 @@ Objects {
   Id: 11831162371735363797
   Name: "TreatStand"
   Transform {
+    Location {
+    }
     Scale {
       X: 1
       Y: 1
@@ -5269,356 +5145,12 @@ Objects {
   }
 }
 Objects {
-  Id: 13950074068514294567
-  Name: "Balloon Stand"
-  Transform {
-    Location {
-      X: -800
-      Y: -850
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6859534731775971534
-  ChildIds: 4043033264294470970
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 13950074068514294567
-    SubobjectId: 16431909689034091861
-    InstanceId: 4036323068985032889
-    TemplateId: 10223199901888083647
-  }
-}
-Objects {
-  Id: 4043033264294470970
-  Name: "BalloonStand"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13950074068514294567
-  ChildIds: 5656161670930312416
-  ChildIds: 3998512604646226961
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Cost"
-      Int: 10
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 4043033264294470970
-    SubobjectId: 2128792964030251848
-    InstanceId: 4036323068985032889
-    TemplateId: 10223199901888083647
-  }
-}
-Objects {
-  Id: 3998512604646226961
-  Name: "BalloonAudio Client"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4043033264294470970
-  ChildIds: 13093441070916855631
-  ChildIds: 5968669734848460670
-  ChildIds: 17512456018774817693
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  NetworkContext {
-  }
-  InstanceHistory {
-    SelfId: 3998512604646226961
-    SubobjectId: 1363696502246988387
-    InstanceId: 4036323068985032889
-    TemplateId: 10223199901888083647
-  }
-}
-Objects {
-  Id: 17512456018774817693
-  Name: "Meta Collect Item Sparkle 02 SFX"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3998512604646226961
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 6392729120760640584
-    }
-    Pitch: 100
-    Volume: 0.681214035
-    Falloff: 3600
-    Radius: 400
-  }
-  InstanceHistory {
-    SelfId: 17512456018774817693
-    SubobjectId: 15463669315453754863
-    InstanceId: 4036323068985032889
-    TemplateId: 10223199901888083647
-  }
-}
-Objects {
-  Id: 5968669734848460670
-  Name: "Cash Coin Small Register Collect 01 SFX"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3998512604646226961
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 4147123995479383392
-    }
-    Volume: 0.420588613
-    Falloff: 3600
-    Radius: 400
-  }
-  InstanceHistory {
-    SelfId: 5968669734848460670
-    SubobjectId: 8594479119029735692
-    InstanceId: 4036323068985032889
-    TemplateId: 10223199901888083647
-  }
-}
-Objects {
-  Id: 13093441070916855631
-  Name: "BalloonStandClient"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3998512604646226961
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:BalloonStand"
-      ObjectReference {
-        SelfId: 4043033264294470970
-      }
-    }
-    Overrides {
-      Name: "cs:PurchaseAudio1"
-      ObjectReference {
-        SelfId: 5968669734848460670
-      }
-    }
-    Overrides {
-      Name: "cs:PurchaseAudio2"
-      ObjectReference {
-        SelfId: 17512456018774817693
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 3647219975744261823
-    }
-  }
-  InstanceHistory {
-    SelfId: 13093441070916855631
-    SubobjectId: 10386567314081415485
-    InstanceId: 4036323068985032889
-    TemplateId: 10223199901888083647
-  }
-}
-Objects {
-  Id: 5656161670930312416
-  Name: "Trigger"
-  Transform {
-    Location {
-      Y: 100
-    }
-    Rotation {
-    }
-    Scale {
-      X: 3.84613824
-      Y: 2.95787525
-      Z: 3.42322469
-    }
-  }
-  ParentId: 4043033264294470970
-  ChildIds: 8273679904457898712
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Trigger {
-    Interactable: true
-    InteractionLabel: "Get a Balloon"
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
-  }
-  InstanceHistory {
-    SelfId: 5656161670930312416
-    SubobjectId: 7777709595601455762
-    InstanceId: 4036323068985032889
-    TemplateId: 10223199901888083647
-  }
-}
-Objects {
-  Id: 8273679904457898712
-  Name: "BalloonStandServer"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 5656161670930312416
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:BalloonStand"
-      ObjectReference {
-        SelfId: 4043033264294470970
-      }
-    }
-    Overrides {
-      Name: "cs:Trigger"
-      ObjectReference {
-        SelfId: 5656161670930312416
-      }
-    }
-    Overrides {
-      Name: "cs:BalloonSphereTemplate"
-      AssetReference {
-        Id: 11544273585353901312
-      }
-    }
-    Overrides {
-      Name: "cs:BalloonStarTemplate"
-      AssetReference {
-        Id: 4992654598340287358
-      }
-    }
-    Overrides {
-      Name: "cs:BalloonHeartTemplate"
-      AssetReference {
-        Id: 16650047172520149701
-      }
-    }
-    Overrides {
-      Name: "cs:BalloonManticoreTemplate"
-      AssetReference {
-        Id: 8315112760345430717
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 4081700457116907666
-    }
-  }
-  InstanceHistory {
-    SelfId: 8273679904457898712
-    SubobjectId: 6287945030439263402
-    InstanceId: 4036323068985032889
-    TemplateId: 10223199901888083647
-  }
-}
-Objects {
   Id: 6943165719419016865
   Name: "BaloonStand"
   Transform {
     Location {
-      X: -800
-      Y: -850
+      X: 1450
+      Y: -550
     }
     Rotation {
     }
@@ -5891,10 +5423,12 @@ Objects {
   Name: "GlowSticks"
   Transform {
     Location {
-      X: 800
-      Z: 19.918457
+      X: -2550
+      Y: 2500
+      Z: 200
     }
     Rotation {
+      Yaw: -89.9999084
     }
     Scale {
       X: 1
@@ -5928,7 +5462,9 @@ Objects {
   Name: "GlowSticks"
   Transform {
     Location {
+      X: 3.05175781e-05
       Y: 100
+      Z: -100
     }
     Rotation {
     }
@@ -6597,6 +6133,9 @@ Objects {
   Id: 6482778438323318541
   Name: "GlowSticks"
   Transform {
+    Location {
+      Z: -100
+    }
     Rotation {
     }
     Scale {
@@ -7265,7 +6804,9 @@ Objects {
   Name: "GlowSticks"
   Transform {
     Location {
+      X: -3.05175781e-05
       Y: -100
+      Z: -175
     }
     Rotation {
     }
@@ -7936,6 +7477,7 @@ Objects {
   Transform {
     Location {
       X: -800
+      Z: -1400
     }
     Rotation {
     }
@@ -8356,12 +7898,12 @@ Objects {
   Name: "Bouncy_House"
   Transform {
     Location {
-      X: 2550
-      Y: -5859.37695
+      X: 2500
+      Y: -5100
       Z: -0.100585938
     }
     Rotation {
-      Yaw: -143.695068
+      Yaw: -146.189896
     }
     Scale {
       X: 0.247365296
@@ -13781,16 +13323,16 @@ Objects {
   Name: "Decorations_Mess"
   Transform {
     Location {
-      X: 2932.08325
-      Y: -1610
-      Z: 390
+      X: 2370.63916
+      Y: 708.728577
+      Z: 343.587036
     }
     Rotation {
     }
     Scale {
-      X: 0.3
-      Y: 0.3
-      Z: 0.3
+      X: 0.0750960857
+      Y: 0.0750960857
+      Z: 0.0750960857
     }
   }
   ParentId: 4781671109827199097
@@ -13894,8 +13436,8 @@ Objects {
   }
 }
 Objects {
-  Id: 14713340454944924967
-  Name: "Third Person Camera Settings"
+  Id: 1543419512585133337
+  Name: "Top Down Camera Settings"
   Transform {
     Scale {
       X: 1
@@ -13904,183 +13446,6 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  ChildIds: 16979153830381744434
-  ChildIds: 4226120016796708080
-  ChildIds: 724324913679364851
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Sat_Light"
-      Color {
-        G: 0.794000149
-        B: 0.215968102
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 724324913679364851
-  Name: "Client Context"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 14713340454944924967
-  ChildIds: 3567959178173361743
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  NetworkContext {
-  }
-}
-Objects {
-  Id: 3567959178173361743
-  Name: "Third Person Camera"
-  Transform {
-    Location {
-      Z: 500
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 724324913679364851
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Camera {
-    UseAsDefault: true
-    AttachToLocalPlayer: true
-    InitialDistance: 400
-    MinDistance: 300
-    MaxDistance: 600
-    PositionOffset {
-      Y: 60
-    }
-    RotationOffset {
-    }
-    FieldOfView: 90
-    ViewWidth: 1200
-    RotationMode {
-      Value: "mc:erotationmode:lookangle"
-    }
-    MinPitch: -89
-    MaxPitch: 89
-  }
-}
-Objects {
-  Id: 4226120016796708080
-  Name: "Third Person Player Settings"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 14713340454944924967
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Settings {
-    IsDefault: true
-    PlayerMovementSettings {
-      WalkSpeed: 640
-      MaxAcceleration: 1800
-      WalkableFloorAngle: 44
-      JumpMaxCount: 1
-      JumpVelocity: 900
-      GroundFriction: 8
-      GravityScale: 1.9
-      MaxSwimSpeed: 420
-      Buoyancy: 1
-      TouchForceFactor: 1
-      BrakingDecelerationFlying: 600
-      MaxFlightSpeed: 600
-      MovementControlMode {
-        Value: "mc:emovementcontrolmode:lookrelative"
-      }
-      LookControlMode {
-        Value: "mc:elookcontrolmode:relative"
-      }
-      FacingMode {
-        Value: "mc:efacingmode:faceaimwhenactive"
-      }
-      DefaultRotationRate: 540
-      SlideRotationRate: 20
-      LookAtCursorProjectionPlane {
-        Value: "mc:eprojectionplane:xy"
-      }
-      MountedMaxAcceleration: 1800
-      MountedWalkSpeed: 960
-      MountedJumpMaxCount: 1
-      MountedJumpVelocity: 900
-      HeadVisibleToSelf: true
-      IsSlideEnabled: true
-      IsCrouchEnabled: true
-      IsJumpEnabled: true
-      CanMoveForward: true
-      CanMoveBackward: true
-      CanMoveLeft: true
-      CanMoveRight: true
-      AbilityAimMode {
-        Value: "mc:eabilityaimmode:viewrelative"
-      }
-      AppearanceChannelingTime: 2
-      MountChannelingTime: 2
-    }
-  }
-}
-Objects {
-  Id: 16979153830381744434
-  Name: "Isometric Camera Settings"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 14713340454944924967
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14089,11 +13454,11 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 13003078531923574528
+      key: 11729803102646375547
       value {
         Overrides {
           Name: "Name"
-          String: "Isometric Camera Settings"
+          String: "Top Down Camera Settings"
         }
         Overrides {
           Name: "Position"
@@ -14105,18 +13470,10 @@ Objects {
           Rotator {
           }
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
       }
     }
     TemplateAsset {
-      Id: 14700643036174979155
+      Id: 6293309252730912666
     }
   }
 }
@@ -14135,6 +13492,8 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceon"
   }
@@ -14646,61 +14005,6 @@ Objects {
     }
     Foliage {
       Asset {
-        Id: 10831581144853350416
-      }
-      DistanceBetweenInstances: 4000
-      SpawnDistance: 25600
-      CullDistance {
-        Min: 10000
-        Max: 20000
-      }
-      CastShadow: true
-      ReceivesDecals: true
-      GroundSlopeAngle {
-        Max: 90
-      }
-      Scaling {
-        ScaleX {
-          Min: 1
-          Max: 1
-        }
-        ScaleY {
-          Min: 1
-          Max: 1
-        }
-        ScaleZ {
-          Min: 1
-          Max: 1
-        }
-      }
-      RotationAlignment: AlignToWorldUp
-      RandomYaw: true
-      RandomPitchAngle: 6
-      Materials {
-        key: "Nature_Branch"
-        value {
-          Id: 841534158063459245
-        }
-      }
-      Materials {
-        key: "Nature_Trunk"
-        value {
-          Id: 841534158063459245
-        }
-      }
-      LocalPositionOffset {
-      }
-      LocalRotationOffset {
-      }
-      GlobalPositionOffset {
-      }
-      Height {
-        Min: -102400
-        Max: 102400
-      }
-    }
-    Foliage {
-      Asset {
         Id: 18444691339488671441
       }
       DistanceBetweenInstances: 8000
@@ -14858,6 +14162,61 @@ Objects {
         Max: 102400
       }
     }
+    Foliage {
+      Asset {
+        Id: 10831581144853350416
+      }
+      DistanceBetweenInstances: 4000
+      SpawnDistance: 25600
+      CullDistance {
+        Min: 10000
+        Max: 20000
+      }
+      CastShadow: true
+      ReceivesDecals: true
+      GroundSlopeAngle {
+        Max: 90
+      }
+      Scaling {
+        ScaleX {
+          Min: 1
+          Max: 1
+        }
+        ScaleY {
+          Min: 1
+          Max: 1
+        }
+        ScaleZ {
+          Min: 1
+          Max: 1
+        }
+      }
+      RotationAlignment: AlignToWorldUp
+      RandomYaw: true
+      RandomPitchAngle: 6
+      Materials {
+        key: "Nature_Branch"
+        value {
+          Id: 841534158063459245
+        }
+      }
+      Materials {
+        key: "Nature_Trunk"
+        value {
+          Id: 841534158063459245
+        }
+      }
+      LocalPositionOffset {
+      }
+      LocalRotationOffset {
+      }
+      GlobalPositionOffset {
+      }
+      Height {
+        Min: -102400
+        Max: 102400
+      }
+    }
   }
 }
 Objects {
@@ -14866,7 +14225,7 @@ Objects {
   Transform {
     Location {
       X: 2150
-      Y: 2250
+      Y: -26.4199219
       Z: 115
     }
     Rotation {

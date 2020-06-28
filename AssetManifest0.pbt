@@ -44,15 +44,6 @@ Assets {
   }
 }
 Assets {
-  Id: 17699128668611927252
-  Name: "Rock Obsidian 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_fresnel_rock_obsidian_001_uv"
-  }
-}
-Assets {
   Id: 17499227861909132239
   Name: "Flower Bellflower Patch 01"
   PlatformAssetType: 1

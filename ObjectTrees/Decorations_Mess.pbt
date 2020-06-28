@@ -1405,9 +1405,9 @@ Objects {
   Name: "Carpet Tile 01"
   Transform {
     Location {
-      X: 3559.72241
-      Y: 333.333313
-      Z: 1416.66663
+      X: 7070.86
+      Y: 8155.64111
+      Z: -1270.75171
     }
     Rotation {
     }
@@ -2302,9 +2302,9 @@ Objects {
   Name: "Skull_R"
   Transform {
     Location {
-      X: -2581.49
-      Y: 3477.00195
-      Z: 1983.33325
+      X: -3604.39941
+      Y: 7873.69531
+      Z: -1113.18115
     }
     Rotation {
       Yaw: -70.0000305
@@ -4336,9 +4336,9 @@ Objects {
   Name: "Skull_G"
   Transform {
     Location {
-      X: -1109.05591
-      Y: 4250
-      Z: 1933.33325
+      X: -2766.2124
+      Y: 7343.37061
+      Z: -462.83374
     }
     Rotation {
       Yaw: -139.999985
@@ -6378,9 +6378,9 @@ Objects {
   Name: "Skull_B"
   Transform {
     Location {
-      X: 234.284668
-      Y: 4566.6665
-      Z: 1916.66663
+      X: -2805.37598
+      Y: 8064.79297
+      Z: -479.500305
     }
     Rotation {
       Yaw: 94.9999695
@@ -8419,9 +8419,9 @@ Objects {
   Name: "Gold Trophy"
   Transform {
     Location {
-      X: -513.108704
-      Y: 1317.2876
-      Z: -443.333313
+      X: -6860.54688
+      Y: 4669.70361
+      Z: -159.667969
     }
     Rotation {
     }
