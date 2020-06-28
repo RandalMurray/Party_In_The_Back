@@ -278,8 +278,11 @@ Objects {
   Name: "Gifts"
   Transform {
     Location {
+      X: 5600
+      Y: 2000
     }
     Rotation {
+      Yaw: -89.999939
     }
     Scale {
       X: 1

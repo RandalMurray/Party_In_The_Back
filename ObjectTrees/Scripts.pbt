@@ -1,7 +1,7 @@
 Name: "Scripts"
-RootId: 10790118984585465220
+RootId: 17840937617539460454
 Objects {
-  Id: 17552179101906346798
+  Id: 17555030797134219773
   Name: "WeaponAutoReloadClient"
   Transform {
     Location {
@@ -17,7 +17,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10790118984585465220
+  ParentId: 17840937617539460454
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -28,13 +28,13 @@ Objects {
   }
   Script {
     ScriptAsset {
-      Id: 835710596085036610
+      Id: 1555438552796099259
     }
   }
   InstanceHistory {
-    SelfId: 17552179101906346798
-    SubobjectId: 5672595364108173558
-    InstanceId: 223952757767063176
-    TemplateId: 842154376082488552
+    SelfId: 12738507073949092910
+    SubobjectId: 1161031645483767918
+    InstanceId: 7315345806286165136
+    TemplateId: 17440151848550726636
   }
 }
