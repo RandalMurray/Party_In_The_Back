@@ -7961,14 +7961,14 @@ Objects {
   Name: "BalloonSphere"
   Transform {
     Location {
-      X: 6400
-      Y: -1000.00146
+      X: 2750
+      Y: 800
       Z: 700
     }
     Rotation {
       Pitch: 7.34742546
-      Yaw: -100.540344
-      Roll: -32.982605
+      Yaw: -10.5403748
+      Roll: -32.9824219
     }
     Scale {
       X: 1.31281865
@@ -10613,14 +10613,14 @@ Objects {
   Name: "BalloonSphere"
   Transform {
     Location {
-      X: 6149.99805
-      Y: -2200.00098
+      X: 4150
+      Y: 549.999878
       Z: 700
     }
     Rotation {
       Pitch: 7.34742546
-      Yaw: -100.540344
-      Roll: -32.982605
+      Yaw: -10.540329
+      Roll: -32.9823952
     }
     Scale {
       X: 1.31281865
@@ -12542,7 +12542,7 @@ Objects {
       Z: -128.806763
     }
     Rotation {
-      Pitch: -0.443756104
+      Pitch: -0.443757355
       Yaw: 3.07815528
       Roll: 16.399807
     }
