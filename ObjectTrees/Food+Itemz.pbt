@@ -13899,16 +13899,16 @@ Objects {
   Name: "Steam"
   Transform {
     Location {
-      X: -5.58752441
-      Y: -10.6309204
-      Z: 80.3041153
+      X: -5.5875659
+      Y: -10.6311045
+      Z: 80.3040695
     }
     Rotation {
     }
     Scale {
-      X: 0.75
-      Y: 0.75
-      Z: 0.75
+      X: 2.75185919
+      Y: 2.75185919
+      Z: 2.75185919
     }
   }
   ParentId: 1514778205043436271
@@ -13960,16 +13960,16 @@ Objects {
   Name: "Splashes"
   Transform {
     Location {
-      X: 1.16552734
-      Y: 3.7800293
-      Z: 51.5114975
+      X: 1.16536474
+      Y: 3.78011107
+      Z: 51.5115433
     }
     Rotation {
     }
     Scale {
-      X: 0.75
-      Y: 0.75
-      Z: 0.75
+      X: -1.68962991
+      Y: -1.68962991
+      Z: -0.954738557
     }
   }
   ParentId: 1514778205043436271
@@ -14009,16 +14009,19 @@ Objects {
   Name: "Bubbles"
   Transform {
     Location {
-      X: 1.16552734
-      Y: 3.7800293
-      Z: 30.4774628
+      X: 1.16503906
+      Y: -11484.7432
+      Z: 1142.07361
     }
     Rotation {
+      Pitch: -29.3943787
+      Yaw: -0.733886719
+      Roll: 96.003006
     }
     Scale {
-      X: 0.75
-      Y: 0.75
-      Z: 0.75
+      X: -0.536132
+      Y: -0.536132
+      Z: -0.536132
     }
   }
   ParentId: 1514778205043436271
@@ -14029,7 +14032,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Life"
-      Float: 0.5
+      Float: 1.12828696
     }
     Overrides {
       Name: "bp:Wind Speed"
@@ -14053,7 +14056,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Gravity"
-      Float: 1
+      Float: -5
     }
     Overrides {
       Name: "bp:Volume Type"
@@ -14061,7 +14064,29 @@ Objects {
         Value: "mc:evfxvolumetype:0"
       }
     }
+    Overrides {
+      Name: "bp:Density"
+      Float: 5.79425764
+    }
+    Overrides {
+      Name: "bp:Volume Color"
+      Color {
+        G: 0.181440204
+        B: 0.756000042
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:color"
+      Color {
+        R: 0.85
+        G: 1
+        B: 0.862
+        A: 1
+      }
+    }
   }
+  Lifespan: 10
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14315,9 +14340,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 1.5
-      Y: 1.5
-      Z: 1
+      X: 0.52081871
+      Y: 0.52081871
+      Z: 0.347212315
     }
   }
   ParentId: 1514778205043436271

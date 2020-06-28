@@ -26,6 +26,15 @@ Assets {
   }
 }
 Assets {
+  Id: 18060015349180332048
+  Name: "Clear Coat Reflector Hex 03"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_reflector_hex_003"
+  }
+}
+Assets {
   Id: 17977280587505271142
   Name: "Basic Projectile Trail VFX"
   PlatformAssetType: 8
@@ -41,15 +50,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "plastic_shiny_001"
-  }
-}
-Assets {
-  Id: 17699128668611927252
-  Name: "Rock Obsidian 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_fresnel_rock_obsidian_001_uv"
   }
 }
 Assets {
@@ -185,6 +185,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_grass_generic_002"
+  }
+}
+Assets {
+  Id: 8998421352148634983
+  Name: "Donut"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_torus_001"
   }
 }
 Assets {

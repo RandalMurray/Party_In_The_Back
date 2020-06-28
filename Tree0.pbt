@@ -14,6 +14,7 @@ Objects {
       Z: 1
     }
   }
+  ChildIds: 882534843640875431
   ChildIds: 7367735074338159388
   ChildIds: 16813558807825262224
   ChildIds: 6149098699206870303
@@ -31,9 +32,9 @@ Objects {
   ChildIds: 13358597360554033072
   ChildIds: 6949046507286030948
   ChildIds: 3020724333935571340
-  ChildIds: 2914329264973185174
-  ChildIds: 6463954339863669478
-  ChildIds: 15654580739040906105
+  ChildIds: 14670665600909521435
+  ChildIds: 3324208708694916736
+  ChildIds: 17659124053967449065
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -46,21 +47,21 @@ Objects {
   }
 }
 Objects {
-  Id: 15654580739040906105
-  Name: "Cylinder - Chamfered Polished"
+  Id: 17659124053967449065
+  Name: "Donut"
   Transform {
     Location {
-      X: 5655.49707
-      Y: 797.243469
-      Z: 1213.547
+      X: 4193.71
+      Y: -721.108215
+      Z: 3955.93774
     }
     Rotation {
-      Yaw: -3.08468628
+      Roll: 90.6498718
     }
     Scale {
-      X: 2
-      Y: 2
-      Z: 1.25
+      X: 1.49243689
+      Y: 1.44313645
+      Z: 0.214869738
     }
   }
   ParentId: 4781671109827199097
@@ -68,7 +69,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 17699128668611927252
+        Id: 18060015349180332048
       }
     }
   }
@@ -80,7 +81,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 3928292435133106594
+      Id: 8998421352148634983
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -94,12 +95,60 @@ Objects {
   }
 }
 Objects {
-  Id: 6463954339863669478
+  Id: 3324208708694916736
+  Name: "Donut"
+  Transform {
+    Location {
+      X: 3991.92114
+      Y: -721.369507
+      Z: 3932.89917
+    }
+    Rotation {
+      Roll: 90.6498718
+    }
+    Scale {
+      X: 1.20499277
+      Y: 1.02138937
+      Z: 0.0987180173
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18060015349180332048
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8998421352148634983
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 14670665600909521435
   Name: "FakeCake"
   Transform {
     Location {
-    }
-    Rotation {
+      X: 1
+      Y: 1
     }
     Scale {
       X: 1
@@ -118,69 +167,12 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "FakeCake"
   }
-}
-Objects {
-  Id: 2914329264973185174
-  Name: "Balloon"
-  Transform {
-    Location {
-      X: 5250
-      Y: 550
-      Z: 800
-    }
-    Rotation {
-      Pitch: -3.92489624
-      Yaw: -4.1239624
-      Roll: -14.5624695
-    }
-    Scale {
-      X: 1.25
-      Y: 1.25
-      Z: 1.25
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 17860830441923358832
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.18804647
-        G: 0.14625001
-        B: 0.72
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 967520874834913898
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
   InstanceHistory {
-    SelfId: 16731275135866000709
-    SubobjectId: 14816894099723760439
-    InstanceId: 4036323068985032889
-    TemplateId: 10223199901888083647
+    SelfId: 14670665600909521435
+    SubobjectId: 16156161655480229264
+    InstanceId: 9830988048864549839
+    TemplateId: 1287918671451773949
+    WasRoot: true
   }
 }
 Objects {
@@ -13904,7 +13896,6 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  ChildIds: 16979153830381744434
   ChildIds: 4226120016796708080
   ChildIds: 724324913679364851
   UnregisteredParameters {
@@ -14067,56 +14058,6 @@ Objects {
       }
       AppearanceChannelingTime: 2
       MountChannelingTime: 2
-    }
-  }
-}
-Objects {
-  Id: 16979153830381744434
-  Name: "Isometric Camera Settings"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 14713340454944924967
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13003078531923574528
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Isometric Camera Settings"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 14700643036174979155
     }
   }
 }
@@ -14703,7 +14644,7 @@ Objects {
       Asset {
         Id: 18444691339488671441
       }
-      DistanceBetweenInstances: 8000
+      DistanceBetweenInstances: 2900
       SpawnDistance: 25600
       CullDistance {
         Min: 10000
@@ -14918,6 +14859,44 @@ Objects {
       ChatMode {
         Value: "mc:echatmode:teamandall"
       }
+    }
+  }
+}
+Objects {
+  Id: 882534843640875431
+  Name: "IDGA_SPONSER_LOGO"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1307033968617193111
+      value {
+        Overrides {
+          Name: "Name"
+          String: "IDGA_SPONSER_LOGO"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: -234.964752
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16410583869195234728
     }
   }
 }
