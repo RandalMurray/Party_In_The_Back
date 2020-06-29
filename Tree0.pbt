@@ -14,28 +14,41 @@ Objects {
       Z: 1
     }
   }
+  ChildIds: 7973181278208337118
   ChildIds: 7367735074338159388
-  ChildIds: 16813558807825262224
-  ChildIds: 6149098699206870303
   ChildIds: 1543419512585133337
+  ChildIds: 16813558807825262224
+  ChildIds: 11285444838971157616
+  ChildIds: 8595744235449719166
+  ChildIds: 8816431301290546074
+  ChildIds: 6149098699206870303
   ChildIds: 8195914929837552326
   ChildIds: 7521708126774166136
   ChildIds: 820259096713479066
   ChildIds: 15059645414178604150
-  ChildIds: 12678870315175744604
   ChildIds: 9484164534582198872
   ChildIds: 4847393116555195169
   ChildIds: 11999360799812712460
   ChildIds: 13664481052456518361
   ChildIds: 6859534731775971534
   ChildIds: 13358597360554033072
-  ChildIds: 6949046507286030948
   ChildIds: 2278089345132280544
   ChildIds: 2300694682597784010
-  ChildIds: 16807104587433409149
-  ChildIds: 6537296619479110410
-  ChildIds: 6862429329476723685
+  ChildIds: 4843821148911044606
+  ChildIds: 13792522284651592810
+  ChildIds: 6097419183651317658
+  ChildIds: 6117533705710724425
+  ChildIds: 6374908863058540552
+  ChildIds: 7404723370253113603
+  ChildIds: 7046703314262392006
+  ChildIds: 11872411648366774994
+  ChildIds: 5369303564309658208
+  ChildIds: 14563932581663204298
+  ChildIds: 4663726597680086203
+  ChildIds: 16797392661060341824
   ChildIds: 4874580694747364756
+  ChildIds: 16723360153047871816
+  ChildIds: 640800379066838516
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -45,6 +58,990 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 640800379066838516
+  Name: "SpeechBubble_Tutorial"
+  Transform {
+    Location {
+      X: 7432.43262
+      Y: 3005.37671
+      Z: 332.838043
+    }
+    Rotation {
+      Yaw: 95.8422699
+    }
+    Scale {
+      X: 2.25
+      Y: 2.25
+      Z: 2.25
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 15146371455594765697
+  ChildIds: 18083450743138920295
+  ChildIds: 49317361105982136
+  ChildIds: 1941256161984802590
+  ChildIds: 60968913390272095
+  ChildIds: 10506137179959403941
+  ChildIds: 3407222686270479664
+  ChildIds: 6615314965107134903
+  ChildIds: 8978431849784023610
+  ChildIds: 14494496072501380071
+  ChildIds: 3624839310820982230
+  ChildIds: 2122788269956366248
+  ChildIds: 7912455100095426710
+  ChildIds: 37374196311136920
+  ChildIds: 5312544972199148537
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 2699739991531724143
+    SubobjectId: 64782739058588445
+    InstanceId: 4036323068985032889
+    TemplateId: 10223199901888083647
+  }
+}
+Objects {
+  Id: 5312544972199148537
+  Name: "Cube - Arcade 01"
+  Transform {
+    Location {
+      X: 163.697281
+      Y: -16.7497826
+      Z: -143.278397
+    }
+    Rotation {
+      Pitch: 44.999939
+      Yaw: 1.59998908e-05
+      Roll: 2.93089352e-06
+    }
+    Scale {
+      X: 0.197113991
+      Y: 0.0577900335
+      Z: 0.197113991
+    }
+  }
+  ParentId: 640800379066838516
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 132672053610873933
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13091512434361803159
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 14394937871419388758
+    SubobjectId: 16308755811579385124
+    InstanceId: 4036323068985032889
+    TemplateId: 10223199901888083647
+  }
+}
+Objects {
+  Id: 37374196311136920
+  Name: "Cube - Arcade 01"
+  Transform {
+    Location {
+      X: 163.697281
+      Y: -16.7497826
+      Z: -116.215919
+    }
+    Rotation {
+      Pitch: 44.999939
+      Yaw: 1.59998908e-05
+      Roll: 2.93089352e-06
+    }
+    Scale {
+      X: 0.197113991
+      Y: 0.0577900335
+      Z: 0.197113991
+    }
+  }
+  ParentId: 640800379066838516
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 132672053610873933
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13091512434361803159
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 14394937871419388758
+    SubobjectId: 16308755811579385124
+    InstanceId: 4036323068985032889
+    TemplateId: 10223199901888083647
+  }
+}
+Objects {
+  Id: 7912455100095426710
+  Name: "Cube - Arcade 01"
+  Transform {
+    Location {
+      X: 163.697281
+      Y: -16.7497826
+      Z: -87.6784592
+    }
+    Rotation {
+      Pitch: 44.999939
+      Yaw: 1.59998908e-05
+      Roll: 2.93089352e-06
+    }
+    Scale {
+      X: 0.197113991
+      Y: 0.0577900335
+      Z: 0.197113991
+    }
+  }
+  ParentId: 640800379066838516
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 132672053610873933
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13091512434361803159
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 14394937871419388758
+    SubobjectId: 16308755811579385124
+    InstanceId: 4036323068985032889
+    TemplateId: 10223199901888083647
+  }
+}
+Objects {
+  Id: 2122788269956366248
+  Name: "Cube - Arcade 01"
+  Transform {
+    Location {
+      X: 163.697281
+      Y: -16.7497826
+      Z: -62.0904198
+    }
+    Rotation {
+      Pitch: 44.9999428
+    }
+    Scale {
+      X: 0.197113991
+      Y: 0.0577900335
+      Z: 0.197113991
+    }
+  }
+  ParentId: 640800379066838516
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 132672053610873933
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13091512434361803159
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 14394937871419388758
+    SubobjectId: 16308755811579385124
+    InstanceId: 4036323068985032889
+    TemplateId: 10223199901888083647
+  }
+}
+Objects {
+  Id: 3624839310820982230
+  Name: "Cube - Arcade 01"
+  Transform {
+    Location {
+      Z: -143.278397
+    }
+    Rotation {
+      Pitch: 44.9999428
+    }
+    Scale {
+      X: 0.197113991
+      Y: 0.0577900335
+      Z: 0.197113991
+    }
+  }
+  ParentId: 640800379066838516
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 132672053610873933
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13091512434361803159
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 14394937871419388758
+    SubobjectId: 16308755811579385124
+    InstanceId: 4036323068985032889
+    TemplateId: 10223199901888083647
+  }
+}
+Objects {
+  Id: 14494496072501380071
+  Name: "Cube - Arcade 01"
+  Transform {
+    Location {
+      Z: -116.215919
+    }
+    Rotation {
+      Pitch: 44.9999428
+    }
+    Scale {
+      X: 0.197113991
+      Y: 0.0577900335
+      Z: 0.197113991
+    }
+  }
+  ParentId: 640800379066838516
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 132672053610873933
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13091512434361803159
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 14394937871419388758
+    SubobjectId: 16308755811579385124
+    InstanceId: 4036323068985032889
+    TemplateId: 10223199901888083647
+  }
+}
+Objects {
+  Id: 8978431849784023610
+  Name: "Cube - Arcade 01"
+  Transform {
+    Location {
+      Z: -87.6784592
+    }
+    Rotation {
+      Pitch: 44.9999428
+    }
+    Scale {
+      X: 0.197113991
+      Y: 0.0577900335
+      Z: 0.197113991
+    }
+  }
+  ParentId: 640800379066838516
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 132672053610873933
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13091512434361803159
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 14394937871419388758
+    SubobjectId: 16308755811579385124
+    InstanceId: 4036323068985032889
+    TemplateId: 10223199901888083647
+  }
+}
+Objects {
+  Id: 6615314965107134903
+  Name: "Cube - Arcade 01"
+  Transform {
+    Location {
+      Z: -62.0904198
+    }
+    Rotation {
+      Pitch: 44.999939
+    }
+    Scale {
+      X: 0.197113991
+      Y: 0.0577900372
+      Z: 0.197113991
+    }
+  }
+  ParentId: 640800379066838516
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 132672053610873933
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13091512434361803159
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 14394937871419388758
+    SubobjectId: 16308755811579385124
+    InstanceId: 4036323068985032889
+    TemplateId: 10223199901888083647
+  }
+}
+Objects {
+  Id: 3407222686270479664
+  Name: "Cube - Arcade 01"
+  Transform {
+    Location {
+      X: 71.5883408
+      Y: 3.77915788
+      Z: 18.7749634
+    }
+    Rotation {
+      Yaw: -5.38464355
+    }
+    Scale {
+      X: 3.05831909
+      Y: 0.113000542
+      Z: 1.32138133
+    }
+  }
+  ParentId: 640800379066838516
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 132672053610873933
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13091512434361803159
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 14234111859573385815
+    SubobjectId: 16147931252237274149
+    InstanceId: 4036323068985032889
+    TemplateId: 10223199901888083647
+  }
+}
+Objects {
+  Id: 10506137179959403941
+  Name: "World Text"
+  Transform {
+    Location {
+      X: 74.6857071
+      Y: 14.4571943
+      Z: -30.0928822
+    }
+    Rotation {
+      Yaw: 84.5428772
+      Roll: 1.99441722e-12
+    }
+    Scale {
+      X: 0.93194741
+      Y: 0.93194741
+      Z: 0.93194741
+    }
+  }
+  ParentId: 640800379066838516
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "HAVE FUN and CELEBRATE !!!"
+    Color {
+      R: 0.0364583321
+      G: 0.0351458304
+      B: 0.0351458304
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:center"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+  InstanceHistory {
+    SelfId: 12712725532155647184
+    SubobjectId: 10808054427616735906
+    InstanceId: 4036323068985032889
+    TemplateId: 10223199901888083647
+  }
+}
+Objects {
+  Id: 60968913390272095
+  Name: "World Text"
+  Transform {
+    Location {
+      X: 74.6857071
+      Y: 14.4571943
+      Z: -8.49780273
+    }
+    Rotation {
+      Yaw: 84.5428848
+      Roll: 1.99441809e-12
+    }
+    Scale {
+      X: 0.93194741
+      Y: 0.93194741
+      Z: 0.93194741
+    }
+  }
+  ParentId: 640800379066838516
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "and Left click to throw."
+    Color {
+      R: 0.0364583321
+      G: 0.0351458304
+      B: 0.0351458304
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:center"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+  InstanceHistory {
+    SelfId: 12712725532155647184
+    SubobjectId: 10808054427616735906
+    InstanceId: 4036323068985032889
+    TemplateId: 10223199901888083647
+  }
+}
+Objects {
+  Id: 1941256161984802590
+  Name: "World Text"
+  Transform {
+    Location {
+      X: 74.6857071
+      Y: 14.4571943
+      Z: 10.3209505
+    }
+    Rotation {
+      Yaw: 84.5428848
+      Roll: 1.99441917e-12
+    }
+    Scale {
+      X: 0.93194741
+      Y: 0.93194741
+      Z: 0.93194741
+    }
+  }
+  ParentId: 640800379066838516
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "Pass out.  Use Fto Pick up cake "
+    Color {
+      R: 0.0364583321
+      G: 0.0351458304
+      B: 0.0351458304
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:center"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+  InstanceHistory {
+    SelfId: 12712725532155647184
+    SubobjectId: 10808054427616735906
+    InstanceId: 4036323068985032889
+    TemplateId: 10223199901888083647
+  }
+}
+Objects {
+  Id: 49317361105982136
+  Name: "World Text"
+  Transform {
+    Location {
+      X: 74.6857071
+      Y: 14.4571943
+      Z: 31.1503372
+    }
+    Rotation {
+      Yaw: 84.5428848
+      Roll: 1.9944196e-12
+    }
+    Scale {
+      X: 0.931947351
+      Y: 0.931947351
+      Z: 0.931947351
+    }
+  }
+  ParentId: 640800379066838516
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "your friends in cake untill  they "
+    Color {
+      R: 0.0364583321
+      G: 0.0351458304
+      B: 0.0351458304
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:center"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+  InstanceHistory {
+    SelfId: 12712725532155647184
+    SubobjectId: 10808054427616735906
+    InstanceId: 4036323068985032889
+    TemplateId: 10223199901888083647
+  }
+}
+Objects {
+  Id: 18083450743138920295
+  Name: "World Text"
+  Transform {
+    Location {
+      X: 74.6857071
+      Y: 14.4571943
+      Z: 50.3290329
+    }
+    Rotation {
+      Yaw: 84.5428848
+      Roll: 1.99442047e-12
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 640800379066838516
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "table. Pick it up and smother"
+    Color {
+      R: 0.0364583321
+      G: 0.0351458304
+      B: 0.0351458304
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:center"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+  InstanceHistory {
+    SelfId: 12712725532155647184
+    SubobjectId: 10808054427616735906
+    InstanceId: 4036323068985032889
+    TemplateId: 10223199901888083647
+  }
+}
+Objects {
+  Id: 15146371455594765697
+  Name: "World Text"
+  Transform {
+    Location {
+      X: 74.6857071
+      Y: 14.4571943
+      Z: 69.3218765
+    }
+    Rotation {
+      Yaw: 84.5428772
+      Roll: 1.99442069e-12
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 640800379066838516
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "Theres left over cake on the"
+    Color {
+      R: 0.0364583321
+      G: 0.0351458304
+      B: 0.0351458304
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:center"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+  InstanceHistory {
+    SelfId: 12712725532155647184
+    SubobjectId: 10808054427616735906
+    InstanceId: 4036323068985032889
+    TemplateId: 10223199901888083647
+  }
+}
+Objects {
+  Id: 16723360153047871816
+  Name: "IDGA_SPONSER_LOGO"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1307033968617193111
+      value {
+        Overrides {
+          Name: "Name"
+          String: "IDGA_SPONSER_LOGO"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -40965
+            Y: -13205
+            Z: 4505
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 5
+            Y: 5
+            Z: 5
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17843265459915064141
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1957.73425
+            Y: -886.340759
+            Z: 2398.74756
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 45.763195
+            Yaw: 113.938606
+            Roll: 10.5358
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5573114908657508422
+    }
   }
 }
 Objects {
@@ -93,12 +1090,12 @@ Objects {
   }
 }
 Objects {
-  Id: 6862429329476723685
-  Name: "Cake grenade"
+  Id: 16797392661060341824
+  Name: "Cake Grenade"
   Transform {
     Location {
-      X: 4200
-      Y: -940
+      X: 2940
+      Y: -2130
       Z: 300
     }
     Rotation {
@@ -110,1335 +1107,6 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  ChildIds: 3354205659050471836
-  ChildIds: 2053408735652790106
-  ChildIds: 993056124849587959
-  ChildIds: 12665705815723292999
-  ChildIds: 17552697090929745872
-  ChildIds: 3536171444616271595
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:EnableAutoReload"
-      Bool: false
-    }
-    Overrides {
-      Name: "cs:FriendlyExplosionDamage"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:ExplosionDamageRange"
-      Vector2 {
-        X: 10
-        Y: 60
-      }
-    }
-    Overrides {
-      Name: "cs:ExplosionRadius"
-      Float: 350
-    }
-    Overrides {
-      Name: "cs:ExplosionKnockbackSpeed"
-      Float: 1200
-    }
-    Overrides {
-      Name: "cs:DebugExplosion"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:ProjectileImpact"
-      AssetReference {
-        Id: 18432984856142384705
-      }
-    }
-    Overrides {
-      Name: "cs:ProjectileBounceSound"
-      AssetReference {
-        Id: 10291393969002501003
-      }
-    }
-    Overrides {
-      Name: "cs:EnableAutoReload:tooltip"
-      String: "If true the weapon the player will auto reload the ammo without player\'s input. Only reloads if the player has the ammo resource."
-    }
-    Overrides {
-      Name: "cs:ExplosionDamageRange:tooltip"
-      String: "Set the minimum to maximum damage of the explosion. X is damage far from the explosion center and Y is damage close to the explosion center."
-    }
-    Overrides {
-      Name: "cs:ExplosionRadius:tooltip"
-      String: "How far the explosion impacts the surrounding players."
-    }
-    Overrides {
-      Name: "cs:DebugExplosion:tooltip"
-      String: "Whether to show the explosion gizmo or not for debugging purposes."
-    }
-    Overrides {
-      Name: "cs:FriendlyExplosionDamage:tooltip"
-      String: "Whether or not to apply damage on allies (including self damage)."
-    }
-    Overrides {
-      Name: "cs:ExplosionKnockbackSpeed:tooltip"
-      String: "How strong the explosion blasts the player from the center."
-    }
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Equipment {
-    SocketName: "right_prop"
-    PickupTrigger {
-      SelfId: 12665705815723292999
-    }
-    Weapon {
-      ProjectileAssetRef {
-        Id: 7998816545611188145
-      }
-      MuzzleFlashAssetRef {
-        Id: 841534158063459245
-      }
-      TrailAssetRef {
-        Id: 7211775040433751316
-      }
-      ImpactAssetRef {
-        Id: 841534158063459245
-      }
-      Muzzle {
-        Location {
-        }
-      }
-      AnimationSet: "unarmed_stance"
-      OutOfAmmoSfxAssetRef {
-        Id: 16415572810068934207
-      }
-      ReloadSfxAssetRef {
-        Id: 10873888713853693625
-      }
-      ImpactProjectileAssetRef {
-        Id: 841534158063459245
-      }
-      BeamAssetRef {
-        Id: 841534158063459245
-      }
-      BurstCount: 1
-      BurstDuration: 1
-      Range: 100000
-      ImpactPlayerAssetRef {
-        Id: 841534158063459245
-      }
-      ReticleType {
-        Value: "mc:ereticletype:none"
-      }
-      MaxAmmo: 3
-      AmmoType: "rounds"
-      IsFiniteAmmo: true
-      MultiShot: 1
-      ProjectileSpeed: 2200
-      ProjectileLifeSpan: 2
-      ProjectileGravity: 2
-      ProjectileLength: 15
-      ProjectileRadius: 15
-      DefaultAbility {
-        SelfId: 17552697090929745872
-      }
-      ReloadAbility {
-        SelfId: 3536171444616271595
-      }
-      Damage: 5
-      WeaponTrajectoryMode {
-        Value: "mc:eweapontrajectorymode:muzzletolooktarget"
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 6537296619479110410
-    SubobjectId: 18045273018505054026
-    InstanceId: 7315345806286165136
-    TemplateId: 17440151848550726636
-    WasRoot: true
-  }
-}
-Objects {
-  Id: 3536171444616271595
-  Name: "Reload"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6862429329476723685
-  UnregisteredParameters {
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Ability {
-    IsEnabled: true
-    KeyBinding: "ability_ult"
-    CastPhaseSettings {
-      Duration: 0.3
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:aim"
-      }
-    }
-    ExecutePhaseSettings {
-      Duration: 0.1
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:aim"
-      }
-    }
-    RecoveryPhaseSettings {
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:none"
-      }
-    }
-    CooldownPhaseSettings {
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:none"
-      }
-    }
-    Animation: "unarmed_pickup"
-    KeyBinding_v2 {
-      Value: "mc:egameaction:extraaction_33"
-    }
-  }
-  InstanceHistory {
-    SelfId: 10768328357866946681
-    SubobjectId: 3865316663879111737
-    InstanceId: 7315345806286165136
-    TemplateId: 17440151848550726636
-  }
-}
-Objects {
-  Id: 17552697090929745872
-  Name: "Throw"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6862429329476723685
-  UnregisteredParameters {
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Ability {
-    IsEnabled: true
-    KeyBinding: "ability_primary"
-    CastPhaseSettings {
-      Duration: 0.1
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      IsTargetDataUpdated: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:aim"
-      }
-    }
-    ExecutePhaseSettings {
-      Duration: 0.1
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      IsTargetDataUpdated: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:aim"
-      }
-    }
-    RecoveryPhaseSettings {
-      Duration: 0.01
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      IsTargetDataUpdated: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:none"
-      }
-    }
-    CooldownPhaseSettings {
-      Duration: 0.2
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      IsTargetDataUpdated: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:none"
-      }
-    }
-    Animation: "unarmed_throw"
-    KeyBinding_v2 {
-      Value: "mc:egameaction:primaryaction"
-    }
-  }
-  InstanceHistory {
-    SelfId: 18167704594915684497
-    SubobjectId: 6698035183165842641
-    InstanceId: 7315345806286165136
-    TemplateId: 17440151848550726636
-  }
-}
-Objects {
-  Id: 12665705815723292999
-  Name: "Pickup Trigger"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.8
-      Y: 0.8
-      Z: 0.8
-    }
-  }
-  ParentId: 6862429329476723685
-  UnregisteredParameters {
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Trigger {
-    Interactable: true
-    InteractionLabel: "THIS cake is NOT a lie"
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:sphere"
-    }
-  }
-  InstanceHistory {
-    SelfId: 5046938730639933761
-    SubobjectId: 16635945838114313473
-    InstanceId: 7315345806286165136
-    TemplateId: 17440151848550726636
-  }
-}
-Objects {
-  Id: 993056124849587959
-  Name: "Client Context"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6862429329476723685
-  ChildIds: 17840937617539460454
-  ChildIds: 12551943111238792654
-  UnregisteredParameters {
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  NetworkContext {
-  }
-  InstanceHistory {
-    SelfId: 3292902277487176043
-    SubobjectId: 10188877097158049067
-    InstanceId: 7315345806286165136
-    TemplateId: 17440151848550726636
-  }
-}
-Objects {
-  Id: 12551943111238792654
-  Name: "Geo"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 993056124849587959
-  ChildIds: 3890660921228611247
-  ChildIds: 15754400489696224284
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 16456489521075729335
-    SubobjectId: 4951046533306738679
-    InstanceId: 7315345806286165136
-    TemplateId: 17440151848550726636
-  }
-}
-Objects {
-  Id: 15754400489696224284
-  Name: "WeaponUtilityHideObjectClient"
-  Transform {
-    Location {
-      X: -50
-      Y: -250
-      Z: 5
-    }
-    Rotation {
-      Pitch: -6.83018879e-06
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12551943111238792654
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:HideAfterAttack"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:HideOnEmptyAmmo"
-      Bool: true
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 5931387296191922675
-    }
-  }
-  InstanceHistory {
-    SelfId: 5909352251208234220
-    SubobjectId: 17498358121698861228
-    InstanceId: 7315345806286165136
-    TemplateId: 17440151848550726636
-  }
-}
-Objects {
-  Id: 3890660921228611247
-  Name: "Normie cake"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12551943111238792654
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 16871119888336488342
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Normie cake"
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 7998816545611188145
-    }
-  }
-}
-Objects {
-  Id: 17840937617539460454
-  Name: "Scripts"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 993056124849587959
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Scripts"
-  }
-  InstanceHistory {
-    SelfId: 12650337537976521284
-    SubobjectId: 1106639104568985092
-    InstanceId: 7315345806286165136
-    TemplateId: 17440151848550726636
-  }
-}
-Objects {
-  Id: 2053408735652790106
-  Name: "ServerContext"
-  Transform {
-    Location {
-      X: -25
-      Y: -225.972427
-      Z: -10
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6862429329476723685
-  ChildIds: 15858353195477948314
-  UnregisteredParameters {
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  NetworkContext {
-    Type: Server
-  }
-  InstanceHistory {
-    SelfId: 15262135961935255330
-    SubobjectId: 8293778231280583522
-    InstanceId: 7315345806286165136
-    TemplateId: 17440151848550726636
-  }
-}
-Objects {
-  Id: 15858353195477948314
-  Name: "WeaponPickupTriggerServer"
-  Transform {
-    Location {
-      X: -25
-      Y: -225.972427
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 2053408735652790106
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Trigger"
-      ObjectReference {
-        SelfId: 12665705815723292999
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 11700388680188238122
-    }
-  }
-  InstanceHistory {
-    SelfId: 10644014311580732822
-    SubobjectId: 3703003495720606166
-    InstanceId: 7315345806286165136
-    TemplateId: 17440151848550726636
-  }
-}
-Objects {
-  Id: 3354205659050471836
-  Name: "WeaponProjectileExplosionServer"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6862429329476723685
-  UnregisteredParameters {
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 7468996461222806728
-    }
-  }
-  InstanceHistory {
-    SelfId: 16777376292679908151
-    SubobjectId: 5188606681897742199
-    InstanceId: 7315345806286165136
-    TemplateId: 17440151848550726636
-  }
-}
-Objects {
-  Id: 6537296619479110410
-  Name: "Cake grenade"
-  Transform {
-    Location {
-      X: 2970
-      Y: -940
-      Z: 300
-    }
-    Scale {
-      X: 0.25
-      Y: 0.25
-      Z: 0.25
-    }
-  }
-  ParentId: 4781671109827199097
-  ChildIds: 16777376292679908151
-  ChildIds: 15262135961935255330
-  ChildIds: 3292902277487176043
-  ChildIds: 5046938730639933761
-  ChildIds: 18167704594915684497
-  ChildIds: 10768328357866946681
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:EnableAutoReload"
-      Bool: false
-    }
-    Overrides {
-      Name: "cs:FriendlyExplosionDamage"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:ExplosionDamageRange"
-      Vector2 {
-        X: 10
-        Y: 60
-      }
-    }
-    Overrides {
-      Name: "cs:ExplosionRadius"
-      Float: 350
-    }
-    Overrides {
-      Name: "cs:ExplosionKnockbackSpeed"
-      Float: 1200
-    }
-    Overrides {
-      Name: "cs:DebugExplosion"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:ProjectileImpact"
-      AssetReference {
-        Id: 18432984856142384705
-      }
-    }
-    Overrides {
-      Name: "cs:ProjectileBounceSound"
-      AssetReference {
-        Id: 10291393969002501003
-      }
-    }
-    Overrides {
-      Name: "cs:EnableAutoReload:tooltip"
-      String: "If true the weapon the player will auto reload the ammo without player\'s input. Only reloads if the player has the ammo resource."
-    }
-    Overrides {
-      Name: "cs:ExplosionDamageRange:tooltip"
-      String: "Set the minimum to maximum damage of the explosion. X is damage far from the explosion center and Y is damage close to the explosion center."
-    }
-    Overrides {
-      Name: "cs:ExplosionRadius:tooltip"
-      String: "How far the explosion impacts the surrounding players."
-    }
-    Overrides {
-      Name: "cs:DebugExplosion:tooltip"
-      String: "Whether to show the explosion gizmo or not for debugging purposes."
-    }
-    Overrides {
-      Name: "cs:FriendlyExplosionDamage:tooltip"
-      String: "Whether or not to apply damage on allies (including self damage)."
-    }
-    Overrides {
-      Name: "cs:ExplosionKnockbackSpeed:tooltip"
-      String: "How strong the explosion blasts the player from the center."
-    }
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Equipment {
-    SocketName: "right_prop"
-    PickupTrigger {
-      SelfId: 5046938730639933761
-    }
-    Weapon {
-      ProjectileAssetRef {
-        Id: 7998816545611188145
-      }
-      MuzzleFlashAssetRef {
-        Id: 841534158063459245
-      }
-      TrailAssetRef {
-        Id: 7211775040433751316
-      }
-      ImpactAssetRef {
-        Id: 841534158063459245
-      }
-      Muzzle {
-        Location {
-        }
-      }
-      AnimationSet: "unarmed_stance"
-      OutOfAmmoSfxAssetRef {
-        Id: 16415572810068934207
-      }
-      ReloadSfxAssetRef {
-        Id: 10873888713853693625
-      }
-      ImpactProjectileAssetRef {
-        Id: 841534158063459245
-      }
-      BeamAssetRef {
-        Id: 841534158063459245
-      }
-      BurstCount: 1
-      BurstDuration: 1
-      Range: 100000
-      ImpactPlayerAssetRef {
-        Id: 841534158063459245
-      }
-      ReticleType {
-        Value: "mc:ereticletype:none"
-      }
-      MaxAmmo: 3
-      AmmoType: "rounds"
-      IsFiniteAmmo: true
-      MultiShot: 1
-      ProjectileSpeed: 2200
-      ProjectileLifeSpan: 2
-      ProjectileGravity: 2
-      ProjectileLength: 15
-      ProjectileRadius: 15
-      DefaultAbility {
-        SelfId: 18167704594915684497
-      }
-      ReloadAbility {
-        SelfId: 10768328357866946681
-      }
-      Damage: 5
-      WeaponTrajectoryMode {
-        Value: "mc:eweapontrajectorymode:muzzletolooktarget"
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 6537296619479110410
-    SubobjectId: 18045273018505054026
-    InstanceId: 7315345806286165136
-    TemplateId: 17440151848550726636
-    WasRoot: true
-  }
-}
-Objects {
-  Id: 10768328357866946681
-  Name: "Reload"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6537296619479110410
-  UnregisteredParameters {
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Ability {
-    IsEnabled: true
-    KeyBinding: "ability_ult"
-    CastPhaseSettings {
-      Duration: 0.3
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:aim"
-      }
-    }
-    ExecutePhaseSettings {
-      Duration: 0.1
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:aim"
-      }
-    }
-    RecoveryPhaseSettings {
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:none"
-      }
-    }
-    CooldownPhaseSettings {
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:none"
-      }
-    }
-    Animation: "unarmed_pickup"
-    KeyBinding_v2 {
-      Value: "mc:egameaction:extraaction_33"
-    }
-  }
-  InstanceHistory {
-    SelfId: 10768328357866946681
-    SubobjectId: 3865316663879111737
-    InstanceId: 7315345806286165136
-    TemplateId: 17440151848550726636
-  }
-}
-Objects {
-  Id: 18167704594915684497
-  Name: "Throw"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6537296619479110410
-  UnregisteredParameters {
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Ability {
-    IsEnabled: true
-    KeyBinding: "ability_primary"
-    CastPhaseSettings {
-      Duration: 0.1
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      IsTargetDataUpdated: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:aim"
-      }
-    }
-    ExecutePhaseSettings {
-      Duration: 0.1
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      IsTargetDataUpdated: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:aim"
-      }
-    }
-    RecoveryPhaseSettings {
-      Duration: 0.01
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      IsTargetDataUpdated: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:none"
-      }
-    }
-    CooldownPhaseSettings {
-      Duration: 0.2
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      IsTargetDataUpdated: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:none"
-      }
-    }
-    Animation: "unarmed_throw"
-    KeyBinding_v2 {
-      Value: "mc:egameaction:primaryaction"
-    }
-  }
-  InstanceHistory {
-    SelfId: 18167704594915684497
-    SubobjectId: 6698035183165842641
-    InstanceId: 7315345806286165136
-    TemplateId: 17440151848550726636
-  }
-}
-Objects {
-  Id: 5046938730639933761
-  Name: "Pickup Trigger"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.8
-      Y: 0.8
-      Z: 0.8
-    }
-  }
-  ParentId: 6537296619479110410
-  UnregisteredParameters {
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Trigger {
-    Interactable: true
-    InteractionLabel: "THIS cake is NOT a lie"
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:sphere"
-    }
-  }
-  InstanceHistory {
-    SelfId: 5046938730639933761
-    SubobjectId: 16635945838114313473
-    InstanceId: 7315345806286165136
-    TemplateId: 17440151848550726636
-  }
-}
-Objects {
-  Id: 3292902277487176043
-  Name: "Client Context"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6537296619479110410
-  ChildIds: 12650337537976521284
-  ChildIds: 16456489521075729335
-  UnregisteredParameters {
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  NetworkContext {
-  }
-  InstanceHistory {
-    SelfId: 3292902277487176043
-    SubobjectId: 10188877097158049067
-    InstanceId: 7315345806286165136
-    TemplateId: 17440151848550726636
-  }
-}
-Objects {
-  Id: 16456489521075729335
-  Name: "Geo"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3292902277487176043
-  ChildIds: 16775196822653940266
-  ChildIds: 5909352251208234220
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 16456489521075729335
-    SubobjectId: 4951046533306738679
-    InstanceId: 7315345806286165136
-    TemplateId: 17440151848550726636
-  }
-}
-Objects {
-  Id: 5909352251208234220
-  Name: "WeaponUtilityHideObjectClient"
-  Transform {
-    Location {
-      X: -50
-      Y: -250
-      Z: 5
-    }
-    Rotation {
-      Pitch: -6.83018879e-06
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16456489521075729335
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:HideAfterAttack"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:HideOnEmptyAmmo"
-      Bool: true
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 5931387296191922675
-    }
-  }
-  InstanceHistory {
-    SelfId: 5909352251208234220
-    SubobjectId: 17498358121698861228
-    InstanceId: 7315345806286165136
-    TemplateId: 17440151848550726636
-  }
-}
-Objects {
-  Id: 16775196822653940266
-  Name: "Normie cake"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16456489521075729335
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 16871119888336488342
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Normie cake"
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 7998816545611188145
-    }
-  }
-}
-Objects {
-  Id: 12650337537976521284
-  Name: "Scripts"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3292902277487176043
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Scripts_1"
-  }
-  InstanceHistory {
-    SelfId: 12650337537976521284
-    SubobjectId: 1106639104568985092
-    InstanceId: 7315345806286165136
-    TemplateId: 17440151848550726636
-  }
-}
-Objects {
-  Id: 15262135961935255330
-  Name: "ServerContext"
-  Transform {
-    Location {
-      X: -25
-      Y: -225.972427
-      Z: -10
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6537296619479110410
-  ChildIds: 10644014311580732822
-  UnregisteredParameters {
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  NetworkContext {
-    Type: Server
-  }
-  InstanceHistory {
-    SelfId: 15262135961935255330
-    SubobjectId: 8293778231280583522
-    InstanceId: 7315345806286165136
-    TemplateId: 17440151848550726636
-  }
-}
-Objects {
-  Id: 10644014311580732822
-  Name: "WeaponPickupTriggerServer"
-  Transform {
-    Location {
-      X: -25
-      Y: -225.972427
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15262135961935255330
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Trigger"
-      ObjectReference {
-        SelfId: 5046938730639933761
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 11700388680188238122
-    }
-  }
-  InstanceHistory {
-    SelfId: 10644014311580732822
-    SubobjectId: 3703003495720606166
-    InstanceId: 7315345806286165136
-    TemplateId: 17440151848550726636
-  }
-}
-Objects {
-  Id: 16777376292679908151
-  Name: "WeaponProjectileExplosionServer"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6537296619479110410
-  UnregisteredParameters {
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 7468996461222806728
-    }
-  }
-  InstanceHistory {
-    SelfId: 16777376292679908151
-    SubobjectId: 5188606681897742199
-    InstanceId: 7315345806286165136
-    TemplateId: 17440151848550726636
-  }
-}
-Objects {
-  Id: 16807104587433409149
-  Name: "Cupcake Grenade"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1448,24 +1116,687 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 18045273018505054026
+      key: 15380302888609668766
       value {
         Overrides {
           Name: "Name"
-          String: "Cupcake Grenade"
+          String: "Cake Grenade"
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: 2970
-            Y: -2180
-            Z: 360
+            X: 4515
+            Y: -3950
+            Z: 15
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "MaxAmmo"
+          Int: 5
+        }
+        Overrides {
+          Name: "ProjectileGravity"
+          Float: 2
+        }
+        Overrides {
+          Name: "ProjectileSpeed"
+          Float: 2500
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6171378333491179589
+    }
+  }
+}
+Objects {
+  Id: 4663726597680086203
+  Name: "Cake Grenade"
+  Transform {
+    Location {
+      X: 7965
+      Y: 3725
+      Z: 15
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.25
+      Y: 0.25
+      Z: 0.25
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 15380302888609668766
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Cake Grenade"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 10120
+            Y: 390
+            Z: 20
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "MaxAmmo"
+          Int: 5
+        }
+        Overrides {
+          Name: "ProjectileGravity"
+          Float: 2
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6171378333491179589
+    }
+  }
+}
+Objects {
+  Id: 14563932581663204298
+  Name: "Cake Grenade"
+  Transform {
+    Location {
+      X: 2940
+      Y: -2130
+      Z: 300
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.25
+      Y: 0.25
+      Z: 0.25
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 15380302888609668766
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Cake Grenade"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 7965
+            Y: 3725
+            Z: 15
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "MaxAmmo"
+          Int: 5
+        }
+        Overrides {
+          Name: "ProjectileGravity"
+          Float: 2
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6171378333491179589
+    }
+  }
+}
+Objects {
+  Id: 5369303564309658208
+  Name: "Cake Grenade"
+  Transform {
+    Location {
+      X: 4190
+      Y: -1135
+      Z: 300
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.25
+      Y: 0.25
+      Z: 0.25
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 15380302888609668766
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Cake Grenade"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 8810
+            Y: -6515
+            Z: 20
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "MaxAmmo"
+          Int: 5
+        }
+        Overrides {
+          Name: "ProjectileGravity"
+          Float: 2
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6171378333491179589
+    }
+  }
+}
+Objects {
+  Id: 11872411648366774994
+  Name: "Cake Grenade"
+  Transform {
+    Location {
+      X: 4190
+      Y: -940
+      Z: 300
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.25
+      Y: 0.25
+      Z: 0.25
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 15380302888609668766
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Cake Grenade"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2555
+            Y: 3525
+            Z: 134.36261
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "MaxAmmo"
+          Int: 5
+        }
+        Overrides {
+          Name: "ProjectileGravity"
+          Float: 2
+        }
+        Overrides {
+          Name: "ProjectileSpeed"
+          Float: 2500
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6171378333491179589
+    }
+  }
+}
+Objects {
+  Id: 7046703314262392006
+  Name: "Cake Grenade"
+  Transform {
+    Location {
+      X: 4190
+      Y: -940
+      Z: 300
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.25
+      Y: 0.25
+      Z: 0.25
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 15380302888609668766
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Cake Grenade"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 3390
+            Y: -6105
+            Z: 60
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "MaxAmmo"
+          Int: 5
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6171378333491179589
+    }
+  }
+}
+Objects {
+  Id: 7404723370253113603
+  Name: "Cake Grenade"
+  Transform {
+    Location {
+      X: 4190
+      Y: -940
+      Z: 300
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.25
+      Y: 0.25
+      Z: 0.25
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 15380302888609668766
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Cake Grenade"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 4190
+            Y: -2110
+            Z: 300
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "MaxAmmo"
+          Int: 5
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6171378333491179589
+    }
+  }
+}
+Objects {
+  Id: 6374908863058540552
+  Name: "Cake Grenade"
+  Transform {
+    Location {
+      X: 4190
+      Y: -940
+      Z: 300
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.25
+      Y: 0.25
+      Z: 0.25
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 15380302888609668766
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Cake Grenade"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 4190
+            Y: -1135
+            Z: 300
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "MaxAmmo"
+          Int: 5
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6171378333491179589
+    }
+  }
+}
+Objects {
+  Id: 6117533705710724425
+  Name: "Cake Grenade"
+  Transform {
+    Location {
+      X: 4190
+      Y: -940
+      Z: 300
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.25
+      Y: 0.25
+      Z: 0.25
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 15380302888609668766
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Cake Grenade"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 4190
+            Y: -90
+            Z: 300
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "MaxAmmo"
+          Int: 5
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6171378333491179589
+    }
+  }
+}
+Objects {
+  Id: 6097419183651317658
+  Name: "Cake Grenade"
+  Transform {
+    Location {
+      X: 4190
+      Y: -940
+      Z: 300
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.25
+      Y: 0.25
+      Z: 0.25
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 15380302888609668766
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Cake Grenade"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2955
+            Y: -1120
+            Z: 300
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "MaxAmmo"
+          Int: 5
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16005760749150954101
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
           }
         }
       }
     }
     TemplateAsset {
-      Id: 17440151848550726636
+      Id: 6171378333491179589
+    }
+  }
+}
+Objects {
+  Id: 13792522284651592810
+  Name: "Cake Grenade"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 15380302888609668766
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Cake Grenade"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2950
+            Y: -85
+            Z: 300
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6171378333491179589
+    }
+  }
+}
+Objects {
+  Id: 4843821148911044606
+  Name: "Cake Grenade"
+  Transform {
+    Location {
+      X: 2950
+      Y: -940
+      Z: 300
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.25
+      Y: 0.25
+      Z: 0.25
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 15380302888609668766
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Cake Grenade"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2940
+            Y: -2130
+            Z: 300
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "MaxAmmo"
+          Int: 5
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6171378333491179589
     }
   }
 }
@@ -3830,62 +4161,6 @@ Objects {
   }
 }
 Objects {
-  Id: 6949046507286030948
-  Name: "Cute Animal Props Pack"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 4290777193642790393
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Cute Animal Props Pack"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 6160.47168
-            Y: -7616.85596
-            Z: 1240.2843
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: -0.233624339
-            Y: -0.233624339
-            Z: -0.233624339
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: -7.70227051
-            Yaw: 82.3631592
-            Roll: 175.423843
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 14486052234084164066
-    }
-  }
-}
-Objects {
   Id: 13358597360554033072
   Name: "UI Text Box"
   Transform {
@@ -3967,10 +4242,7 @@ Objects {
   ChildIds: 10146290030568846495
   ChildIds: 3536362754027448421
   ChildIds: 12453839479402900733
-  ChildIds: 6943165719419016865
   ChildIds: 8685906089686442253
-  ChildIds: 10454787283183420568
-  ChildIds: 16647680176006593997
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3986,1098 +4258,6 @@ Objects {
     InstanceId: 4036323068985032889
     TemplateId: 10223199901888083647
     WasRoot: true
-  }
-}
-Objects {
-  Id: 16647680176006593997
-  Name: "Coin Spawners"
-  Transform {
-    Location {
-      Z: 275.666931
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6859534731775971534
-  ChildIds: 11917045802593901506
-  ChildIds: 14954649951046872076
-  ChildIds: 1422356694740551640
-  ChildIds: 16268528060309379354
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 16647680176006593997
-    SubobjectId: 14022292050002353087
-    InstanceId: 4036323068985032889
-    TemplateId: 10223199901888083647
-  }
-}
-Objects {
-  Id: 16268528060309379354
-  Name: "Treasure Pickup Spawner"
-  Transform {
-    Location {
-      Y: -200
-      Z: -289.316284
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16647680176006593997
-  ChildIds: 7955049682125840809
-  ChildIds: 9289705353011618403
-  ChildIds: 11704453324800495277
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:LootTable"
-      ObjectReference {
-        SelfId: 10146290030568846495
-      }
-    }
-    Overrides {
-      Name: "cs:SpawnOffset"
-      Vector {
-      }
-    }
-    Overrides {
-      Name: "cs:UseRoundTiming"
-      Bool: false
-    }
-    Overrides {
-      Name: "cs:Period"
-      Float: 5
-    }
-    Overrides {
-      Name: "cs:ShouldRespawnOnDestroy"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:RespawnDelay"
-      Float: 1
-    }
-    Overrides {
-      Name: "cs:Period:tooltip"
-      String: "Time over which items are spawned (or despawned) to spread out network traffic"
-    }
-    Overrides {
-      Name: "cs:LootTable:tooltip"
-      String: "The loot table object to get loot from"
-    }
-    Overrides {
-      Name: "cs:SpawnOffset:tooltip"
-      String: "Where to spawn the loot relative to this component"
-    }
-    Overrides {
-      Name: "cs:UseRoundTiming:tooltip"
-      String: "Items will be spawned at round start and destroyed at round end. When unchecked, this will spawn once at game start"
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 16268528060309379354
-    SubobjectId: 14146981441039564648
-    InstanceId: 4036323068985032889
-    TemplateId: 10223199901888083647
-  }
-}
-Objects {
-  Id: 11704453324800495277
-  Name: "ServerContext"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16268528060309379354
-  ChildIds: 7107749213700784596
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  NetworkContext {
-    Type: Server
-  }
-  InstanceHistory {
-    SelfId: 11704453324800495277
-    SubobjectId: 9799783242463471839
-    InstanceId: 4036323068985032889
-    TemplateId: 10223199901888083647
-  }
-}
-Objects {
-  Id: 7107749213700784596
-  Name: "Cylinder - Rounded"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 0.1
-    }
-  }
-  ParentId: 11704453324800495277
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 1
-        G: 0.777483463
-        B: 0.160000026
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 2723232960546970913
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13846976516959842924
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    DisableReceiveDecals: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 7107749213700784596
-    SubobjectId: 5130317928267343782
-    InstanceId: 4036323068985032889
-    TemplateId: 10223199901888083647
-  }
-}
-Objects {
-  Id: 9289705353011618403
-  Name: "Geo"
-  Transform {
-    Location {
-      X: -50
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16268528060309379354
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 9289705353011618403
-    SubobjectId: 11924099654457656337
-    InstanceId: 4036323068985032889
-    TemplateId: 10223199901888083647
-  }
-}
-Objects {
-  Id: 7955049682125840809
-  Name: "LootSpawnerServer"
-  Transform {
-    Location {
-      X: -25
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16268528060309379354
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:API"
-      AssetReference {
-        Id: 16923534778108052479
-      }
-    }
-    Overrides {
-      Name: "cs:ComponentRoot"
-      ObjectReference {
-        SelfId: 16268528060309379354
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 16467111957350091126
-    }
-  }
-  InstanceHistory {
-    SelfId: 7955049682125840809
-    SubobjectId: 5473917749584594907
-    InstanceId: 4036323068985032889
-    TemplateId: 10223199901888083647
-  }
-}
-Objects {
-  Id: 1422356694740551640
-  Name: "Treasure Pickup Spawner"
-  Transform {
-    Location {
-      Y: 200
-      Z: -289.316284
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16647680176006593997
-  ChildIds: 10593213898979147018
-  ChildIds: 6296088523277842980
-  ChildIds: 9519376462379456722
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:LootTable"
-      ObjectReference {
-        SelfId: 10146290030568846495
-      }
-    }
-    Overrides {
-      Name: "cs:SpawnOffset"
-      Vector {
-      }
-    }
-    Overrides {
-      Name: "cs:UseRoundTiming"
-      Bool: false
-    }
-    Overrides {
-      Name: "cs:Period"
-      Float: 5
-    }
-    Overrides {
-      Name: "cs:ShouldRespawnOnDestroy"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:RespawnDelay"
-      Float: 1
-    }
-    Overrides {
-      Name: "cs:Period:tooltip"
-      String: "Time over which items are spawned (or despawned) to spread out network traffic"
-    }
-    Overrides {
-      Name: "cs:LootTable:tooltip"
-      String: "The loot table object to get loot from"
-    }
-    Overrides {
-      Name: "cs:SpawnOffset:tooltip"
-      String: "Where to spawn the loot relative to this component"
-    }
-    Overrides {
-      Name: "cs:UseRoundTiming:tooltip"
-      String: "Items will be spawned at round start and destroyed at round end. When unchecked, this will spawn once at game start"
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 1422356694740551640
-    SubobjectId: 3903628402429206954
-    InstanceId: 4036323068985032889
-    TemplateId: 10223199901888083647
-  }
-}
-Objects {
-  Id: 9519376462379456722
-  Name: "ServerContext"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1422356694740551640
-  ChildIds: 11889610874423971919
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  NetworkContext {
-    Type: Server
-  }
-  InstanceHistory {
-    SelfId: 9519376462379456722
-    SubobjectId: 11640361162487660192
-    InstanceId: 4036323068985032889
-    TemplateId: 10223199901888083647
-  }
-}
-Objects {
-  Id: 11889610874423971919
-  Name: "Cylinder - Rounded"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 0.1
-    }
-  }
-  ParentId: 9519376462379456722
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 1
-        G: 0.777483463
-        B: 0.160000026
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 2723232960546970913
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13846976516959842924
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    DisableReceiveDecals: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 11889610874423971919
-    SubobjectId: 9264223985907430973
-    InstanceId: 4036323068985032889
-    TemplateId: 10223199901888083647
-  }
-}
-Objects {
-  Id: 6296088523277842980
-  Name: "Geo"
-  Transform {
-    Location {
-      X: -50
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1422356694740551640
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 6296088523277842980
-    SubobjectId: 8282528313635789910
-    InstanceId: 4036323068985032889
-    TemplateId: 10223199901888083647
-  }
-}
-Objects {
-  Id: 10593213898979147018
-  Name: "LootSpawnerServer"
-  Transform {
-    Location {
-      X: -25
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1422356694740551640
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:API"
-      AssetReference {
-        Id: 16923534778108052479
-      }
-    }
-    Overrides {
-      Name: "cs:ComponentRoot"
-      ObjectReference {
-        SelfId: 1422356694740551640
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 16467111957350091126
-    }
-  }
-  InstanceHistory {
-    SelfId: 10593213898979147018
-    SubobjectId: 13156113281462705016
-    InstanceId: 4036323068985032889
-    TemplateId: 10223199901888083647
-  }
-}
-Objects {
-  Id: 14954649951046872076
-  Name: "Treasure Pickup Spawner"
-  Transform {
-    Location {
-      X: -200
-      Z: -289.316284
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16647680176006593997
-  ChildIds: 4311568440035772406
-  ChildIds: 7667705546324945111
-  ChildIds: 3309512205713715289
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:LootTable"
-      ObjectReference {
-        SelfId: 10146290030568846495
-      }
-    }
-    Overrides {
-      Name: "cs:SpawnOffset"
-      Vector {
-      }
-    }
-    Overrides {
-      Name: "cs:UseRoundTiming"
-      Bool: false
-    }
-    Overrides {
-      Name: "cs:Period"
-      Float: 5
-    }
-    Overrides {
-      Name: "cs:ShouldRespawnOnDestroy"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:RespawnDelay"
-      Float: 1
-    }
-    Overrides {
-      Name: "cs:Period:tooltip"
-      String: "Time over which items are spawned (or despawned) to spread out network traffic"
-    }
-    Overrides {
-      Name: "cs:LootTable:tooltip"
-      String: "The loot table object to get loot from"
-    }
-    Overrides {
-      Name: "cs:SpawnOffset:tooltip"
-      String: "Where to spawn the loot relative to this component"
-    }
-    Overrides {
-      Name: "cs:UseRoundTiming:tooltip"
-      String: "Items will be spawned at round start and destroyed at round end. When unchecked, this will spawn once at game start"
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 14954649951046872076
-    SubobjectId: 16868468097096731262
-    InstanceId: 4036323068985032889
-    TemplateId: 10223199901888083647
-  }
-}
-Objects {
-  Id: 3309512205713715289
-  Name: "ServerContext"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 14954649951046872076
-  ChildIds: 17337440464731706851
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  NetworkContext {
-    Type: Server
-  }
-  InstanceHistory {
-    SelfId: 3309512205713715289
-    SubobjectId: 611644472385689131
-    InstanceId: 4036323068985032889
-    TemplateId: 10223199901888083647
-  }
-}
-Objects {
-  Id: 17337440464731706851
-  Name: "Cylinder - Rounded"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 0.1
-    }
-  }
-  ParentId: 3309512205713715289
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 1
-        G: 0.777483463
-        B: 0.160000026
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 2723232960546970913
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13846976516959842924
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    DisableReceiveDecals: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 17337440464731706851
-    SubobjectId: 15351564448155497361
-    InstanceId: 4036323068985032889
-    TemplateId: 10223199901888083647
-  }
-}
-Objects {
-  Id: 7667705546324945111
-  Name: "Geo"
-  Transform {
-    Location {
-      X: -50
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 14954649951046872076
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 7667705546324945111
-    SubobjectId: 5762471346072080037
-    InstanceId: 4036323068985032889
-    TemplateId: 10223199901888083647
-  }
-}
-Objects {
-  Id: 4311568440035772406
-  Name: "LootSpawnerServer"
-  Transform {
-    Location {
-      X: -25
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 14954649951046872076
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:API"
-      AssetReference {
-        Id: 16923534778108052479
-      }
-    }
-    Overrides {
-      Name: "cs:ComponentRoot"
-      ObjectReference {
-        SelfId: 14954649951046872076
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 16467111957350091126
-    }
-  }
-  InstanceHistory {
-    SelfId: 4311568440035772406
-    SubobjectId: 2181013384829198724
-    InstanceId: 4036323068985032889
-    TemplateId: 10223199901888083647
-  }
-}
-Objects {
-  Id: 11917045802593901506
-  Name: "Treasure Pickup Spawner"
-  Transform {
-    Location {
-      X: 200
-      Z: -289.316284
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16647680176006593997
-  ChildIds: 3167867237395778698
-  ChildIds: 17952083509539777549
-  ChildIds: 5872318722237656309
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:LootTable"
-      ObjectReference {
-        SelfId: 10146290030568846495
-      }
-    }
-    Overrides {
-      Name: "cs:SpawnOffset"
-      Vector {
-      }
-    }
-    Overrides {
-      Name: "cs:UseRoundTiming"
-      Bool: false
-    }
-    Overrides {
-      Name: "cs:Period"
-      Float: 5
-    }
-    Overrides {
-      Name: "cs:ShouldRespawnOnDestroy"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:RespawnDelay"
-      Float: 1
-    }
-    Overrides {
-      Name: "cs:Period:tooltip"
-      String: "Time over which items are spawned (or despawned) to spread out network traffic"
-    }
-    Overrides {
-      Name: "cs:LootTable:tooltip"
-      String: "The loot table object to get loot from"
-    }
-    Overrides {
-      Name: "cs:SpawnOffset:tooltip"
-      String: "Where to spawn the loot relative to this component"
-    }
-    Overrides {
-      Name: "cs:UseRoundTiming:tooltip"
-      String: "Items will be spawned at round start and destroyed at round end. When unchecked, this will spawn once at game start"
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 11917045802593901506
-    SubobjectId: 9291096170282139056
-    InstanceId: 4036323068985032889
-    TemplateId: 10223199901888083647
-  }
-}
-Objects {
-  Id: 5872318722237656309
-  Name: "ServerContext"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11917045802593901506
-  ChildIds: 1179265131883224197
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  NetworkContext {
-    Type: Server
-  }
-  InstanceHistory {
-    SelfId: 5872318722237656309
-    SubobjectId: 8426211241547664007
-    InstanceId: 4036323068985032889
-    TemplateId: 10223199901888083647
-  }
-}
-Objects {
-  Id: 1179265131883224197
-  Name: "Cylinder - Rounded"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 0.1
-    }
-  }
-  ParentId: 5872318722237656309
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 1
-        G: 0.777483463
-        B: 0.160000026
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 2723232960546970913
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13846976516959842924
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    DisableReceiveDecals: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 1179265131883224197
-    SubobjectId: 3876710712875465463
-    InstanceId: 4036323068985032889
-    TemplateId: 10223199901888083647
-  }
-}
-Objects {
-  Id: 17952083509539777549
-  Name: "Geo"
-  Transform {
-    Location {
-      X: -50
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11917045802593901506
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 17952083509539777549
-    SubobjectId: 15903297079754607231
-    InstanceId: 4036323068985032889
-    TemplateId: 10223199901888083647
-  }
-}
-Objects {
-  Id: 3167867237395778698
-  Name: "LootSpawnerServer"
-  Transform {
-    Location {
-      X: -25
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11917045802593901506
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:API"
-      AssetReference {
-        Id: 16923534778108052479
-      }
-    }
-    Overrides {
-      Name: "cs:ComponentRoot"
-      ObjectReference {
-        SelfId: 11917045802593901506
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 16467111957350091126
-    }
-  }
-  InstanceHistory {
-    SelfId: 3167867237395778698
-    SubobjectId: 1038016830898252536
-    InstanceId: 4036323068985032889
-    TemplateId: 10223199901888083647
-  }
-}
-Objects {
-  Id: 10454787283183420568
-  Name: "Coin UI"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6859534731775971534
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Coin UI"
-  }
-  InstanceHistory {
-    SelfId: 10454787283183420568
-    SubobjectId: 13008538797911614186
-    InstanceId: 4036323068985032889
-    TemplateId: 10223199901888083647
   }
 }
 Objects {
@@ -8882,280 +8062,6 @@ Objects {
   InstanceHistory {
     SelfId: 4832274005166503170
     SubobjectId: 7394610575404061552
-    InstanceId: 4036323068985032889
-    TemplateId: 10223199901888083647
-  }
-}
-Objects {
-  Id: 6943165719419016865
-  Name: "BaloonStand"
-  Transform {
-    Location {
-      X: 1450
-      Y: -550
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6859534731775971534
-  ChildIds: 11175245662730723429
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 6943165719419016865
-    SubobjectId: 5028925213264326867
-    InstanceId: 4036323068985032889
-    TemplateId: 10223199901888083647
-  }
-}
-Objects {
-  Id: 11175245662730723429
-  Name: "Baloons"
-  Transform {
-    Location {
-      X: -46.3676758
-      Y: 1000
-      Z: -10.0167847
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.31281865
-      Y: 1.31281865
-      Z: 1.31281865
-    }
-  }
-  ParentId: 6943165719419016865
-  ChildIds: 16361887163379737454
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 11175245662730723429
-    SubobjectId: 13728996971569071639
-    InstanceId: 4036323068985032889
-    TemplateId: 10223199901888083647
-  }
-}
-Objects {
-  Id: 16361887163379737454
-  Name: "ClientContext"
-  Transform {
-    Location {
-      Y: 60
-      Z: 60
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.2
-      Y: 1.2
-      Z: 1.2
-    }
-  }
-  ParentId: 11175245662730723429
-  ChildIds: 16188794934676714413
-  ChildIds: 4603267086102092181
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  NetworkContext {
-  }
-  InstanceHistory {
-    SelfId: 16361887163379737454
-    SubobjectId: 14303530370174682396
-    InstanceId: 4036323068985032889
-    TemplateId: 10223199901888083647
-  }
-}
-Objects {
-  Id: 4603267086102092181
-  Name: "Cube - Arcade 02"
-  Transform {
-    Location {
-      Y: -50
-      Z: 46.466217
-    }
-    Rotation {
-      Roll: -179.999954
-    }
-    Scale {
-      X: 0.604119062
-      Y: 0.604119301
-      Z: 0.0651830435
-    }
-  }
-  ParentId: 16361887163379737454
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.538
-        G: 0.878031909
-        B: 1
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Trim:color"
-      Color {
-        R: 0.840000033
-        G: 0.933244944
-        B: 1
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Detail1:id"
-      AssetReference {
-        Id: 17322705949407495958
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Detail1:color"
-      Color {
-        R: 0.242000014
-        G: 0.063
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 17860830441923358832
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3928292435133106594
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 4603267086102092181
-    SubobjectId: 1905963547999813607
-    InstanceId: 4036323068985032889
-    TemplateId: 10223199901888083647
-  }
-}
-Objects {
-  Id: 16188794934676714413
-  Name: "Cube - Arcade 02"
-  Transform {
-    Location {
-      X: -2.30567765
-      Y: -50.0000229
-      Z: 83.3116074
-    }
-    Rotation {
-      Roll: -179.999954
-    }
-    Scale {
-      X: 0.583333313
-      Y: 0.583333313
-      Z: 0.583333313
-    }
-  }
-  ParentId: 16361887163379737454
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.330000103
-        G: 0.973200202
-        B: 1
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Trim:color"
-      Color {
-        R: 0.840000033
-        G: 0.933244944
-        B: 1
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Detail1:id"
-      AssetReference {
-        Id: 17322705949407495958
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Detail1:color"
-      Color {
-        R: 0.242000014
-        G: 0.063
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 17860830441923358832
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 841958490692169039
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 16188794934676714413
-    SubobjectId: 14212066855648990687
     InstanceId: 4036323068985032889
     TemplateId: 10223199901888083647
   }
@@ -17005,34 +15911,6 @@ Objects {
   }
 }
 Objects {
-  Id: 12678870315175744604
-  Name: "EnvironmentSound"
-  Transform {
-    Location {
-      X: 4850
-      Z: 750
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "EnvironmentSound"
-  }
-}
-Objects {
   Id: 15059645414178604150
   Name: "Toys"
   Transform {
@@ -17166,67 +16044,101 @@ Objects {
       }
     }
     ParameterOverrideMap {
+      key: 1775836137332118625
+      value {
+        Overrides {
+          Name: "bp:High Cloud Index"
+          Enum {
+            Value: "mc:ehighaltitudecloudshapes:0"
+          }
+        }
+        Overrides {
+          Name: "bp:Cloud Ambient Color"
+          Color {
+            R: 0.950000048
+            B: 0.452979922
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "bp:High Cloud Color"
+          Color {
+            R: 0.989139795
+            G: 0.18
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "bp:Cloud Wisp Speed"
+          Float: 0.34
+        }
+        Overrides {
+          Name: "bp:Cloud Wisp Color"
+          Color {
+            R: 1
+            G: 0.00999999
+            B: 0.993443429
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "bp:Cloud Color"
+          Color {
+            R: 0.99
+            G: 0.924437225
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "bp:Haze Color"
+          Color {
+            R: 0.852119148
+            G: 1
+            B: 0.230000019
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "bp:Zenith Color"
+          Color {
+            R: 1
+            G: 0.25
+            B: 0.965231419
+            A: 0.6
+          }
+        }
+        Overrides {
+          Name: "bp:Overall Tint"
+          Color {
+            R: 0.88344413
+            G: 0.45
+            B: 1
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 8406579028204651720
       value {
         Overrides {
           Name: "bp:Intensity"
           Float: 3.09304595
         }
+        Overrides {
+          Name: "bp:Tint Color"
+          Color {
+            R: 1
+            G: 0.68
+            B: 0.947019815
+            A: 1
+          }
+        }
       }
     }
     TemplateAsset {
       Id: 13846912643693722294
-    }
-  }
-}
-Objects {
-  Id: 1543419512585133337
-  Name: "Top Down Camera Settings"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 11729803102646375547
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Top Down Camera Settings"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13027308566333370791
-      value {
-        Overrides {
-          Name: "PlayerWalkSpeed"
-          Float: 1000
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 6293309252730912666
     }
   }
 }
@@ -17973,13 +16885,13 @@ Objects {
   }
 }
 Objects {
-  Id: 16813558807825262224
+  Id: 8816431301290546074
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 2150
-      Y: -26.4199219
-      Z: 115
+      X: 4255
+      Y: 2445
+      Z: 120
     }
     Rotation {
     }
@@ -17990,6 +16902,7 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  ChildIds: 355995315378272693
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -18000,6 +16913,300 @@ Objects {
   }
   PlayerSpawnPoint {
     TeamInt: 1
+  }
+}
+Objects {
+  Id: 355995315378272693
+  Name: "Respawn Settings"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.571428597
+      Y: 0.571428597
+      Z: 0.571428597
+    }
+  }
+  ParentId: 8816431301290546074
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Settings {
+    IsDefault: true
+    RespawnSettings {
+      RespawnDelay: 3
+      RespawnMode_v2 {
+        Value: "mc:erespawnmode:roundrobin"
+      }
+    }
+  }
+}
+Objects {
+  Id: 8595744235449719166
+  Name: "Spawn Point"
+  Transform {
+    Location {
+      X: 4265
+      Y: 2690
+      Z: 120
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.75
+      Y: 1.75
+      Z: 1.75
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 12246638370929160639
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  PlayerSpawnPoint {
+    TeamInt: 1
+  }
+}
+Objects {
+  Id: 12246638370929160639
+  Name: "Respawn Settings"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.571428597
+      Y: 0.571428597
+      Z: 0.571428597
+    }
+  }
+  ParentId: 8595744235449719166
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Settings {
+    IsDefault: true
+    RespawnSettings {
+      RespawnDelay: 3
+      RespawnMode_v2 {
+        Value: "mc:erespawnmode:roundrobin"
+      }
+    }
+  }
+}
+Objects {
+  Id: 11285444838971157616
+  Name: "Spawn Point"
+  Transform {
+    Location {
+      X: 4240
+      Y: 2200
+      Z: 120
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.75
+      Y: 1.75
+      Z: 1.75
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 10579471940594062674
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  PlayerSpawnPoint {
+    TeamInt: 1
+  }
+}
+Objects {
+  Id: 10579471940594062674
+  Name: "Respawn Settings"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.571428597
+      Y: 0.571428597
+      Z: 0.571428597
+    }
+  }
+  ParentId: 11285444838971157616
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Settings {
+    IsDefault: true
+    RespawnSettings {
+      RespawnDelay: 3
+      RespawnMode_v2 {
+        Value: "mc:erespawnmode:roundrobin"
+      }
+    }
+  }
+}
+Objects {
+  Id: 16813558807825262224
+  Name: "Spawn Point"
+  Transform {
+    Location {
+      X: 4230
+      Y: 1930
+      Z: 120
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.75
+      Y: 1.75
+      Z: 1.75
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 1090668918228268504
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  PlayerSpawnPoint {
+    TeamInt: 1
+  }
+}
+Objects {
+  Id: 1090668918228268504
+  Name: "Respawn Settings"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.571428597
+      Y: 0.571428597
+      Z: 0.571428597
+    }
+  }
+  ParentId: 16813558807825262224
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Settings {
+    IsDefault: true
+    RespawnSettings {
+      RespawnDelay: 3
+      RespawnMode_v2 {
+        Value: "mc:erespawnmode:roundrobin"
+      }
+    }
+  }
+}
+Objects {
+  Id: 1543419512585133337
+  Name: "Top Down Camera Settings"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10887368347001650009
+      value {
+        Overrides {
+          Name: "cs:ComponentRoot"
+          ObjectReference {
+            SelfId: 15211108680577630252
+            SubObjectId: 6346605252096791538
+            InstanceId: 1543419512585133337
+            TemplateId: 6293309252730912666
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11729803102646375547
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Top Down Camera Settings"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13027308566333370791
+      value {
+        Overrides {
+          Name: "PlayerWalkSpeed"
+          Float: 1200
+        }
+        Overrides {
+          Name: "PlayerJumpMaxCount"
+          Int: 2
+        }
+        Overrides {
+          Name: "PlayerGravityScale"
+          Float: 2.1
+        }
+        Overrides {
+          Name: "PlayerGroundFriction"
+          Float: 7
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6293309252730912666
+    }
   }
 }
 Objects {
@@ -18017,6 +17224,7 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  ChildIds: 17138241745620864295
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -18027,9 +17235,90 @@ Objects {
     IsDefault: true
     GameSettings {
       RagdollOnDeath: true
+      EnablePlayerStorage: true
       ChatMode {
-        Value: "mc:echatmode:teamandall"
+        Value: "mc:echatmode:allonly"
       }
+    }
+  }
+}
+Objects {
+  Id: 17138241745620864295
+  Name: "Team Settings"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7367735074338159388
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Settings {
+    IsDefault: true
+    TeamSettings {
+      TeamMode_v2 {
+        Value: "mc:eteammode:ffa"
+      }
+    }
+  }
+}
+Objects {
+  Id: 7973181278208337118
+  Name: "__SniperAlley_Atmospherics"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 15689202575926135386
+      value {
+        Overrides {
+          Name: "Name"
+          String: "__SniperAlley_Atmospherics"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10076804632833397345
     }
   }
 }

@@ -1,0 +1,12 @@
+GameId: "3ce0d6890fa44a3ab248dd900df8c220"
+ClientVersion: "1.0.140-prod-s"
+Name: "CAKE BASH"
+Description: "IGDA eJam 2020 Submission.\r\n\r\nYou\'re 12 again, at a friends birthday party, you have spare cake. You know what to do\r\n\r\nBY:\r\nAbdullah Abdelwahab\"Monster Sandvich\"\r\nChessireTheCat \"Randal Murray\",\r\nMaazBarz \"Muhammad Maaz\" \r\ncauro99 \"Casey Urso\""
+MaxPlayers: 4
+Tags: "TopDown"
+Tags: "Relaxing"
+Tags: "Funny"
+ScreenshotPaths: "D:\\Desktop - WD\\Cover.jpg"
+ScreenshotPaths: "D:/Documents - WD/My Games/CORE/Saved/Maps/Party_In_The_Back/Screenshots/Screenshot0001.png"
+ScreenshotPaths: "D:/Documents - WD/My Games/CORE/Saved/Maps/Party_In_The_Back/Screenshots/Screenshot0002.png"
+ScreenshotPaths: "D:/Documents - WD/My Games/CORE/Saved/Maps/Party_In_The_Back/Screenshots/Screenshot0003.png"

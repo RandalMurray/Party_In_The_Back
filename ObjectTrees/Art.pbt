@@ -1,7 +1,7 @@
 Name: "Art"
-RootId: 11069972780771186696
+RootId: 4245500178721888036
 Objects {
-  Id: 12615468782286095117
+  Id: 1839404541369101748
   Name: "SammyTheSadTaco"
   Transform {
     Location {
@@ -14,9 +14,9 @@ Objects {
       Z: 0.298318654
     }
   }
-  ParentId: 11069972780771186696
-  ChildIds: 12680770337405382569
-  ChildIds: 5930703939521713777
+  ParentId: 4245500178721888036
+  ChildIds: 10774895552917520257
+  ChildIds: 15029906632019467179
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -36,7 +36,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5930703939521713777
+  Id: 15029906632019467179
   Name: "TimmyTacoFolder"
   Transform {
     Location {
@@ -52,7 +52,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12615468782286095117
+  ParentId: 1839404541369101748
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -73,7 +73,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12680770337405382569
+  Id: 10774895552917520257
   Name: "CenterPivot"
   Transform {
     Location {
@@ -86,7 +86,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12615468782286095117
+  ParentId: 1839404541369101748
   UnregisteredParameters {
   }
   Collidable_v2 {

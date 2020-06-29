@@ -759,7 +759,6 @@ Objects {
   }
   ParentId: 8768016897126237132
   ChildIds: 17537975724909338321
-  ChildIds: 13310220354052517399
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -775,96 +774,6 @@ Objects {
   InstanceHistory {
     SelfId: 98298397594890166
     SubobjectId: 13578915101393128558
-    InstanceId: 223952757767063176
-    TemplateId: 842154376082488552
-  }
-}
-Objects {
-  Id: 13310220354052517399
-  Name: "Trigger"
-  Transform {
-    Location {
-      X: 100
-      Z: 175
-    }
-    Rotation {
-      Yaw: 89.9999619
-    }
-    Scale {
-      X: 2.42237067
-      Y: 2.52452612
-      Z: 2.75
-    }
-  }
-  ParentId: 98298397594890166
-  ChildIds: 3459091496099993033
-  UnregisteredParameters {
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Trigger {
-    Interactable: true
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
-  }
-  InstanceHistory {
-    SelfId: 13310220354052517399
-    SubobjectId: 404092978209148367
-    InstanceId: 223952757767063176
-    TemplateId: 842154376082488552
-  }
-}
-Objects {
-  Id: 3459091496099993033
-  Name: "DoorScript"
-  Transform {
-    Location {
-      X: -5.51172479e-06
-      Y: -9.90292168
-      Z: -13.613637
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.350293666
-      Y: 0.594170868
-      Z: 1
-    }
-  }
-  ParentId: 13310220354052517399
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Door"
-      ObjectReference {
-        SelfId: 17537975724909338321
-      }
-    }
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 14162894150377291949
-    }
-  }
-  InstanceHistory {
-    SelfId: 3459091496099993033
-    SubobjectId: 10173050928002168337
     InstanceId: 223952757767063176
     TemplateId: 842154376082488552
   }
@@ -1090,7 +999,6 @@ Objects {
   }
   ParentId: 8768016897126237132
   ChildIds: 5983940376678987057
-  ChildIds: 10368914606390186700
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -1106,96 +1014,6 @@ Objects {
   InstanceHistory {
     SelfId: 8668208123026450419
     SubobjectId: 14224460907068392491
-    InstanceId: 223952757767063176
-    TemplateId: 842154376082488552
-  }
-}
-Objects {
-  Id: 10368914606390186700
-  Name: "Trigger"
-  Transform {
-    Location {
-      X: 100
-      Z: 175
-    }
-    Rotation {
-      Yaw: 89.9999619
-    }
-    Scale {
-      X: 2.42237067
-      Y: 2.52452612
-      Z: 2.75
-    }
-  }
-  ParentId: 8668208123026450419
-  ChildIds: 16739405864714837869
-  UnregisteredParameters {
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Trigger {
-    Interactable: true
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
-  }
-  InstanceHistory {
-    SelfId: 10368914606390186700
-    SubobjectId: 3659472037004751124
-    InstanceId: 223952757767063176
-    TemplateId: 842154376082488552
-  }
-}
-Objects {
-  Id: 16739405864714837869
-  Name: "DoorScript"
-  Transform {
-    Location {
-      X: -5.51172479e-06
-      Y: -9.90292168
-      Z: -13.613637
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.350293666
-      Y: 0.594170868
-      Z: 1
-    }
-  }
-  ParentId: 10368914606390186700
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Door"
-      ObjectReference {
-        SelfId: 5983940376678987057
-      }
-    }
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 14162894150377291949
-    }
-  }
-  InstanceHistory {
-    SelfId: 16739405864714837869
-    SubobjectId: 6152645491108658357
     InstanceId: 223952757767063176
     TemplateId: 842154376082488552
   }
